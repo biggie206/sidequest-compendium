@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "bundleVersion": 1,
+  "updatedAt": "2026-08-29",
+  "categories": [
+    { "id": "vehicles", "name": "Vehicles", "order": 1 },
+    { "id": "stores", "name": "Stores", "order": 2 },
+    { "id": "collectibles", "name": "Collectibles", "order": 3 },
+    { "id": "properties", "name": "Properties", "order": 4 },
+    { "id": "activities", "name": "Activities", "order": 5 }
+  ],
+  "items": [
+    { "id": "veh-001", "category": "vehicles", "name": "Coupe — mid-range", "hint": "Near the marina, north side", "tags": ["road", "common"] },
+    { "id": "veh-002", "category": "vehicles", "name": "Muscle sedan — classic", "hint": "Behind the drive-in, east lot", "tags": ["road", "rare"] },
+    { "id": "veh-003", "category": "vehicles", "name": "Lifted pickup — off-road", "hint": "Quarry track, past the gate", "tags": ["offroad"] },
+    { "id": "veh-004", "category": "vehicles", "name": "Compact hatchback — city", "hint": "Any parking deck downtown", "tags": ["road", "common"] },
+    { "id": "veh-005", "category": "vehicles", "name": "Touring motorcycle — heavy", "hint": "Coast highway rest stop", "tags": ["bike"] },
+    { "id": "veh-006", "category": "vehicles", "name": "Panel van — utility", "hint": "Loading bays on industrial row", "tags": ["work", "common"] },
+
+    { "id": "sto-001", "category": "stores", "name": "Downtown tailor", "hint": "Two blocks west of the fountain", "tags": ["clothing"] },
+    { "id": "sto-002", "category": "stores", "name": "Riverside barber", "hint": "Under the green awning by the bridge", "tags": ["style"] },
+    { "id": "sto-003", "category": "stores", "name": "Corner convenience mart", "hint": "Opposite the bus shelter, south end", "tags": ["supplies", "common"] },
+    { "id": "sto-004", "category": "stores", "name": "Boardwalk skate shop", "hint": "Beach promenade, near the pier steps", "tags": ["sport"] },
+    { "id": "sto-005", "category": "stores", "name": "Hardware yard", "hint": "Industrial row, last unit on the left", "tags": ["supplies"] },
+    { "id": "sto-006", "category": "stores", "name": "Airfield gift counter", "hint": "Inside the small terminal, arrivals side", "tags": ["misc", "rare"] },
+
+    { "id": "col-001", "category": "collectibles", "name": "Brass compass shard", "hint": "Rock pools below the lighthouse", "tags": ["coastal"] },
+    { "id": "col-002", "category": "collectibles", "name": "Painted tile fragment", "hint": "Alley wall behind the old bakery", "tags": ["urban"] },
+    { "id": "col-003", "category": "collectibles", "name": "Transistor radio dial", "hint": "Scrapyard, top of the crushed stack", "tags": ["urban", "rare"] },
+    { "id": "col-004", "category": "collectibles", "name": "Carved wooden fish", "hint": "Bait shack roof, far dock", "tags": ["coastal"] },
+    { "id": "col-005", "category": "collectibles", "name": "Rusted key blank", "hint": "Storm drain grate on the hill road", "tags": ["hidden"] },
+    { "id": "col-006", "category": "collectibles", "name": "Faded postcard", "hint": "Bench at the overlook, tucked underneath", "tags": ["hidden", "rare"] },
+
+    { "id": "pro-001", "category": "properties", "name": "Dockside warehouse loft", "hint": "Waterfront, third roller door", "tags": ["large"] },
+    { "id": "pro-002", "category": "properties", "name": "Hillside bungalow", "hint": "Switchback road above the reservoir", "tags": ["home"] },
+    { "id": "pro-003", "category": "properties", "name": "Beachfront cabana", "hint": "South shore, past the volleyball nets", "tags": ["home", "coastal"] },
+    { "id": "pro-004", "category": "properties", "name": "Garage bay — two-car", "hint": "Industrial row, shared forecourt", "tags": ["storage"] },
+    { "id": "pro-005", "category": "properties", "name": "Midtown rooftop apartment", "hint": "Tower with the red service ladder", "tags": ["home", "large"] },
+    { "id": "pro-006", "category": "properties", "name": "Desert-edge trailer lot", "hint": "End of the gravel spur, past the windmill", "tags": ["storage"] },
+
+    { "id": "act-001", "category": "activities", "name": "Street basketball court", "hint": "Park side, next to the chain fence", "tags": ["sport"] },
+    { "id": "act-002", "category": "activities", "name": "Tavern darts board", "hint": "Back room of the corner tavern", "tags": ["indoor"] },
+    { "id": "act-003", "category": "activities", "name": "Shoreline watercraft loop", "hint": "Rental jetty, north of the marina", "tags": ["water"] },
+    { "id": "act-004", "category": "activities", "name": "Nine-hole pitch and putt", "hint": "Green behind the country clubhouse", "tags": ["sport", "outdoor"] },
+    { "id": "act-005", "category": "activities", "name": "Cliffside parachute drop", "hint": "Trailhead at the top of the ridge road", "tags": ["outdoor", "rare"] },
+    { "id": "act-006", "category": "activities", "name": "Late-night karaoke booth", "hint": "Basement bar under the neon staircase", "tags": ["indoor"] }
+  ],
+  "checkpoints": []
+}

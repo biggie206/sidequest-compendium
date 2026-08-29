@@ -1,0 +1,10 @@
+name: validate
+on: [pull_request, push]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - run: git fetch origin main:refs/remotes/origin/main || true
+      - run: python3 scripts/validate.py
