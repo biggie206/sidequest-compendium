@@ -18,3 +18,16 @@ Edit `compendium.json` in a pull request. Rules — CI enforces the first three,
   "checkpoints": [ { "id": "cp-01", "label": "…", "progress": 25 } ] }
 ```
 Unknown fields are ignored by the app. Not affiliated with any game publisher.
+
+## launch.json (app 1.1 and later)
+Codes, trophies and story checkpoints. Older app versions never read this file. Bump `bundleVersion` on every change; the app ignores a file that is not newer than the one it holds.
+```json
+{ "schemaVersion": 1, "bundleVersion": 2, "updatedAt": "YYYY-MM-DD",
+  "codes": [ { "id": "c-001", "name": "…", "effect": "Player", "sequence": ["north", "r1", "left"], "phone": "…",
+               "status": "verified | reported | unconfirmed", "checkedAt": "YYYY-MM-DD", "note": "…" } ],
+  "trophies": [ { "id": "t-001", "name": "…", "detail": "…", "grade": "bronze | silver | gold | platinum", "progress": 25 } ],
+  "checkpoints": [ { "id": "cp-01", "label": "…", "progress": 25 } ] }
+```
+- Buttons are named by position so one sequence serves both pads: `north east south west`, `up down left right`, `l1 r1 l2 r2`.
+- **`verified` means someone entered it on a console on the `checkedAt` date.** Seen online is `reported`. Never add a code from an earlier game.
+- Trophy names and requirements are written in your own words; `progress` is where on the 0-100 story scale it stops being a spoiler.
