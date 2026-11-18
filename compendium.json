@@ -1,49 +1,371 @@
 {
-  "schemaVersion": 1,
-  "bundleVersion": 1,
-  "updatedAt": "2026-08-29",
-  "categories": [
-    { "id": "vehicles", "name": "Vehicles", "order": 1 },
-    { "id": "stores", "name": "Stores", "order": 2 },
-    { "id": "collectibles", "name": "Collectibles", "order": 3 },
-    { "id": "properties", "name": "Properties", "order": 4 },
-    { "id": "activities", "name": "Activities", "order": 5 }
-  ],
-  "items": [
-    { "id": "veh-001", "category": "vehicles", "name": "Coupe — mid-range", "hint": "Near the marina, north side", "tags": ["road", "common"] },
-    { "id": "veh-002", "category": "vehicles", "name": "Muscle sedan — classic", "hint": "Behind the drive-in, east lot", "tags": ["road", "rare"] },
-    { "id": "veh-003", "category": "vehicles", "name": "Lifted pickup — off-road", "hint": "Quarry track, past the gate", "tags": ["offroad"] },
-    { "id": "veh-004", "category": "vehicles", "name": "Compact hatchback — city", "hint": "Any parking deck downtown", "tags": ["road", "common"] },
-    { "id": "veh-005", "category": "vehicles", "name": "Touring motorcycle — heavy", "hint": "Coast highway rest stop", "tags": ["bike"] },
-    { "id": "veh-006", "category": "vehicles", "name": "Panel van — utility", "hint": "Loading bays on industrial row", "tags": ["work", "common"] },
-
-    { "id": "sto-001", "category": "stores", "name": "Downtown tailor", "hint": "Two blocks west of the fountain", "tags": ["clothing"] },
-    { "id": "sto-002", "category": "stores", "name": "Riverside barber", "hint": "Under the green awning by the bridge", "tags": ["style"] },
-    { "id": "sto-003", "category": "stores", "name": "Corner convenience mart", "hint": "Opposite the bus shelter, south end", "tags": ["supplies", "common"] },
-    { "id": "sto-004", "category": "stores", "name": "Boardwalk skate shop", "hint": "Beach promenade, near the pier steps", "tags": ["sport"] },
-    { "id": "sto-005", "category": "stores", "name": "Hardware yard", "hint": "Industrial row, last unit on the left", "tags": ["supplies"] },
-    { "id": "sto-006", "category": "stores", "name": "Airfield gift counter", "hint": "Inside the small terminal, arrivals side", "tags": ["misc", "rare"] },
-
-    { "id": "col-001", "category": "collectibles", "name": "Brass compass shard", "hint": "Rock pools below the lighthouse", "tags": ["coastal"] },
-    { "id": "col-002", "category": "collectibles", "name": "Painted tile fragment", "hint": "Alley wall behind the old bakery", "tags": ["urban"] },
-    { "id": "col-003", "category": "collectibles", "name": "Transistor radio dial", "hint": "Scrapyard, top of the crushed stack", "tags": ["urban", "rare"] },
-    { "id": "col-004", "category": "collectibles", "name": "Carved wooden fish", "hint": "Bait shack roof, far dock", "tags": ["coastal"] },
-    { "id": "col-005", "category": "collectibles", "name": "Rusted key blank", "hint": "Storm drain grate on the hill road", "tags": ["hidden"] },
-    { "id": "col-006", "category": "collectibles", "name": "Faded postcard", "hint": "Bench at the overlook, tucked underneath", "tags": ["hidden", "rare"] },
-
-    { "id": "pro-001", "category": "properties", "name": "Dockside warehouse loft", "hint": "Waterfront, third roller door", "tags": ["large"] },
-    { "id": "pro-002", "category": "properties", "name": "Hillside bungalow", "hint": "Switchback road above the reservoir", "tags": ["home"] },
-    { "id": "pro-003", "category": "properties", "name": "Beachfront cabana", "hint": "South shore, past the volleyball nets", "tags": ["home", "coastal"] },
-    { "id": "pro-004", "category": "properties", "name": "Garage bay — two-car", "hint": "Industrial row, shared forecourt", "tags": ["storage"] },
-    { "id": "pro-005", "category": "properties", "name": "Midtown rooftop apartment", "hint": "Tower with the red service ladder", "tags": ["home", "large"] },
-    { "id": "pro-006", "category": "properties", "name": "Desert-edge trailer lot", "hint": "End of the gravel spur, past the windmill", "tags": ["storage"] },
-
-    { "id": "act-001", "category": "activities", "name": "Street basketball court", "hint": "Park side, next to the chain fence", "tags": ["sport"] },
-    { "id": "act-002", "category": "activities", "name": "Tavern darts board", "hint": "Back room of the corner tavern", "tags": ["indoor"] },
-    { "id": "act-003", "category": "activities", "name": "Shoreline watercraft loop", "hint": "Rental jetty, north of the marina", "tags": ["water"] },
-    { "id": "act-004", "category": "activities", "name": "Nine-hole pitch and putt", "hint": "Green behind the country clubhouse", "tags": ["sport", "outdoor"] },
-    { "id": "act-005", "category": "activities", "name": "Cliffside parachute drop", "hint": "Trailhead at the top of the ridge road", "tags": ["outdoor", "rare"] },
-    { "id": "act-006", "category": "activities", "name": "Late-night karaoke booth", "hint": "Basement bar under the neon staircase", "tags": ["indoor"] }
-  ],
-  "checkpoints": []
+ "schemaVersion": 1,
+ "bundleVersion": 2,
+ "updatedAt": "2026-11-18",
+ "categories": [
+  {
+   "id": "story",
+   "name": "Story and jobs",
+   "order": 1
+  },
+  {
+   "id": "explore",
+   "name": "Exploration and activities",
+   "order": 2
+  },
+  {
+   "id": "discover",
+   "name": "Discovery",
+   "order": 3
+  }
+ ],
+ "items": [
+  {
+   "id": "req-story-01",
+   "category": "story",
+   "name": "Finish the main story",
+   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
+   "tags": [
+    "100%"
+   ]
+  },
+  {
+   "id": "req-story-02",
+   "category": "story",
+   "name": "Optional tasks: 100",
+   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
+   "tags": [
+    "100%"
+   ]
+  },
+  {
+   "id": "req-story-03",
+   "category": "story",
+   "name": "Gang operations: all 39",
+   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
+   "tags": [
+    "100%"
+   ]
+  },
+  {
+   "id": "req-story-04",
+   "category": "story",
+   "name": "Bank jobs: all 22",
+   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
+   "tags": [
+    "100%"
+   ]
+  },
+  {
+   "id": "req-story-05",
+   "category": "story",
+   "name": "Loan-store jobs: all 7",
+   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
+   "tags": [
+    "100%"
+   ]
+  },
+  {
+   "id": "req-story-06",
+   "category": "story",
+   "name": "Smash-and-grabs: 34 of 35",
+   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
+   "tags": [
+    "100%"
+   ]
+  },
+  {
+   "id": "req-story-07",
+   "category": "story",
+   "name": "Stick-ups: 50 of 91",
+   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
+   "tags": [
+    "100%"
+   ]
+  },
+  {
+   "id": "req-story-08",
+   "category": "story",
+   "name": "Narcotics fenced: 100,000",
+   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
+   "tags": [
+    "100%"
+   ]
+  },
+  {
+   "id": "req-story-09",
+   "category": "story",
+   "name": "Jewelry fenced: 100,000",
+   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
+   "tags": [
+    "100%"
+   ]
+  },
+  {
+   "id": "req-story-10",
+   "category": "story",
+   "name": "Marked bills fenced: 250,000",
+   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
+   "tags": [
+    "100%"
+   ]
+  },
+  {
+   "id": "req-story-11",
+   "category": "story",
+   "name": "Large bank vaults: all 8",
+   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
+   "tags": [
+    "100%"
+   ]
+  },
+  {
+   "id": "req-story-12",
+   "category": "story",
+   "name": "Vehicles fenced: 200,000",
+   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
+   "tags": [
+    "100%"
+   ]
+  },
+  {
+   "id": "req-explore-01",
+   "category": "explore",
+   "name": "Treasure sets: 5 of 7",
+   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
+   "tags": [
+    "100%"
+   ]
+  },
+  {
+   "id": "req-explore-02",
+   "category": "explore",
+   "name": "Collectible card sets: 15 of 18",
+   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
+   "tags": [
+    "100%"
+   ]
+  },
+  {
+   "id": "req-explore-03",
+   "category": "explore",
+   "name": "Scanner app locations: 100",
+   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
+   "tags": [
+    "100%"
+   ]
+  },
+  {
+   "id": "req-explore-04",
+   "category": "explore",
+   "name": "Underwater discoveries: all 33",
+   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
+   "tags": [
+    "100%"
+   ]
+  },
+  {
+   "id": "req-explore-05",
+   "category": "explore",
+   "name": "Magazines, books and comics: 30 of 34",
+   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
+   "tags": [
+    "100%"
+   ]
+  },
+  {
+   "id": "req-explore-06",
+   "category": "explore",
+   "name": "Meditation spots: 15 of 18",
+   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
+   "tags": [
+    "100%"
+   ]
+  },
+  {
+   "id": "req-explore-07",
+   "category": "explore",
+   "name": "Flamingo statues destroyed: 100 of 125",
+   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
+   "tags": [
+    "100%"
+   ]
+  },
+  {
+   "id": "req-explore-08",
+   "category": "explore",
+   "name": "Playlists: both",
+   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
+   "tags": [
+    "100%"
+   ]
+  },
+  {
+   "id": "req-explore-09",
+   "category": "explore",
+   "name": "Styles discovered: 70 of 79",
+   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
+   "tags": [
+    "100%"
+   ]
+  },
+  {
+   "id": "req-explore-10",
+   "category": "explore",
+   "name": "Different races won: 30 of 40",
+   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
+   "tags": [
+    "100%"
+   ]
+  },
+  {
+   "id": "req-explore-11",
+   "category": "explore",
+   "name": "Race challenge golds: 10 of 13",
+   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
+   "tags": [
+    "100%"
+   ]
+  },
+  {
+   "id": "req-explore-12",
+   "category": "explore",
+   "name": "Shooting range golds: all 42",
+   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
+   "tags": [
+    "100%"
+   ]
+  },
+  {
+   "id": "req-explore-13",
+   "category": "explore",
+   "name": "Video games played: all 4",
+   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
+   "tags": [
+    "100%"
+   ]
+  },
+  {
+   "id": "req-explore-14",
+   "category": "explore",
+   "name": "Pool opponents beaten: 5 of 7",
+   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
+   "tags": [
+    "100%"
+   ]
+  },
+  {
+   "id": "req-explore-15",
+   "category": "explore",
+   "name": "Mini golf courses played: 2 of 3",
+   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
+   "tags": [
+    "100%"
+   ]
+  },
+  {
+   "id": "req-explore-16",
+   "category": "explore",
+   "name": "Basketball hoops: 90 of 100",
+   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
+   "tags": [
+    "100%"
+   ]
+  },
+  {
+   "id": "req-explore-17",
+   "category": "explore",
+   "name": "Drone time trials: all 42",
+   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
+   "tags": [
+    "100%"
+   ]
+  },
+  {
+   "id": "req-explore-18",
+   "category": "explore",
+   "name": "Stunts: 300 of 397",
+   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
+   "tags": [
+    "100%"
+   ]
+  },
+  {
+   "id": "req-explore-19",
+   "category": "explore",
+   "name": "Challenges: 70 of 80",
+   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
+   "tags": [
+    "100%"
+   ]
+  },
+  {
+   "id": "req-explore-20",
+   "category": "explore",
+   "name": "Target decks: all 15",
+   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
+   "tags": [
+    "100%"
+   ]
+  },
+  {
+   "id": "req-discover-01",
+   "category": "discover",
+   "name": "Base model vehicles scanned: 200 of 277",
+   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
+   "tags": [
+    "100%"
+   ]
+  },
+  {
+   "id": "req-discover-02",
+   "category": "discover",
+   "name": "Standard weapons: 50 of 66",
+   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
+   "tags": [
+    "100%"
+   ]
+  },
+  {
+   "id": "req-discover-03",
+   "category": "discover",
+   "name": "Animals studied: 100 of 255",
+   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
+   "tags": [
+    "100%"
+   ]
+  }
+ ],
+ "checkpoints": [
+  {
+   "id": "cp-00",
+   "label": "Opening",
+   "progress": 0
+  },
+  {
+   "id": "cp-01",
+   "label": "Chapter 1 finished",
+   "progress": 20
+  },
+  {
+   "id": "cp-02",
+   "label": "Chapter 2 finished",
+   "progress": 40
+  },
+  {
+   "id": "cp-03",
+   "label": "Chapter 3 finished",
+   "progress": 60
+  },
+  {
+   "id": "cp-04",
+   "label": "Chapter 4 finished",
+   "progress": 80
+  },
+  {
+   "id": "cp-05",
+   "label": "Story finished",
+   "progress": 100
+  }
+ ]
 }

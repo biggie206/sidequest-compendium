@@ -31,3 +31,13 @@ Codes, trophies and story checkpoints. Older app versions never read this file. 
 - Buttons are named by position so one sequence serves both pads: `north east south west`, `up down left right`, `l1 r1 l2 r2`.
 - **`verified` means someone entered it on a console on the `checkedAt` date.** Seen online is `reported`. Never add a code from an earlier game.
 - Trophy names and requirements are written in your own words; `progress` is where on the 0-100 story scale it stops being a spoiler.
+
+## Where the launch-week facts came from (2026-11-18)
+Numbers and requirements only, rewritten in our own words; no names, titles or text copied.
+- Trophies (55: 1 platinum, 2 gold, 6 silver, 46 bronze) and the 100% requirement counts: the
+  PowerPyx trophy roadmap and completion checklist pages, and Press Start's checklist article.
+- Codes: only sequences that the PowerPyx cheats page and the GameRiv cheats page both list
+  (17 of 61). All are marked `reported`. A code becomes `verified` only when someone on this
+  project enters it on a console, with that date. Sequences the sources do not agree on are left out.
+- Five trophies have no confirmed requirement yet and say so.
+

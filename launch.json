@@ -1,8 +1,694 @@
 {
-  "schemaVersion": 1,
-  "bundleVersion": 2,
-  "updatedAt": "2026-11-16",
-  "codes": [],
-  "trophies": [],
-  "checkpoints": []
+ "schemaVersion": 1,
+ "bundleVersion": 3,
+ "updatedAt": "2026-11-18",
+ "codes": [
+  {
+   "id": "c-001",
+   "name": "Money: adds 250,000",
+   "effect": "Player",
+   "sequence": [
+    "up",
+    "right",
+    "down",
+    "left",
+    "up",
+    "left",
+    "down",
+    "right"
+   ],
+   "status": "reported",
+   "checkedAt": "2026-11-18",
+   "note": "Unlocks when: you finish the story. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first."
+  },
+  {
+   "id": "c-002",
+   "name": "Raise heat",
+   "effect": "Player",
+   "sequence": [
+    "left",
+    "down",
+    "right",
+    "down",
+    "up",
+    "down",
+    "up"
+   ],
+   "status": "reported",
+   "checkedAt": "2026-11-18",
+   "note": "Unlocks when: you lose a 3-star wanted level 25 times. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first."
+  },
+  {
+   "id": "c-003",
+   "name": "Unlimited focus",
+   "effect": "Player",
+   "sequence": [
+    "down",
+    "up",
+    "up",
+    "down",
+    "up",
+    "down",
+    "up",
+    "down",
+    "up",
+    "right"
+   ],
+   "status": "reported",
+   "checkedAt": "2026-11-18",
+   "note": "Unlocks when: you finish the story. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first."
+  },
+  {
+   "id": "c-004",
+   "name": "Body armor",
+   "effect": "Player",
+   "sequence": [
+    "down",
+    "up",
+    "left",
+    "up",
+    "up",
+    "up",
+    "up",
+    "up",
+    "down",
+    "down"
+   ],
+   "status": "reported",
+   "checkedAt": "2026-11-18",
+   "note": "Unlocks when: you complete 100 workouts. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first."
+  },
+  {
+   "id": "c-005",
+   "name": "Max ammo",
+   "effect": "Combat",
+   "sequence": [
+    "down",
+    "up",
+    "right",
+    "down",
+    "left",
+    "left",
+    "up",
+    "up",
+    "down",
+    "left"
+   ],
+   "status": "reported",
+   "checkedAt": "2026-11-18",
+   "note": "Unlocks when: you earn 25 shooting-range medals, bronze or better. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first."
+  },
+  {
+   "id": "c-006",
+   "name": "Infinite ammo",
+   "effect": "Combat",
+   "sequence": [
+    "down",
+    "up",
+    "right",
+    "down",
+    "left",
+    "left",
+    "up",
+    "down",
+    "down",
+    "down"
+   ],
+   "status": "reported",
+   "checkedAt": "2026-11-18",
+   "note": "Unlocks when: you earn 25 shooting-range medals, silver or better. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first."
+  },
+  {
+   "id": "c-007",
+   "name": "No reload",
+   "effect": "Combat",
+   "sequence": [
+    "down",
+    "up",
+    "right",
+    "down",
+    "left",
+    "left",
+    "up",
+    "down",
+    "down",
+    "up"
+   ],
+   "status": "reported",
+   "checkedAt": "2026-11-18",
+   "note": "Unlocks when: you earn 25 gold shooting-range medals. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first."
+  },
+  {
+   "id": "c-008",
+   "name": "Attack force: hits launch targets",
+   "effect": "Combat",
+   "sequence": [
+    "down",
+    "up",
+    "left",
+    "left",
+    "right",
+    "down",
+    "down",
+    "up",
+    "down"
+   ],
+   "status": "reported",
+   "checkedAt": "2026-11-18",
+   "note": "Unlocks when: you finish the story. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first."
+  },
+  {
+   "id": "c-009",
+   "name": "Exploding balls",
+   "effect": "Combat",
+   "sequence": [
+    "down",
+    "up",
+    "left",
+    "left",
+    "right",
+    "down",
+    "down",
+    "up",
+    "right"
+   ],
+   "status": "reported",
+   "checkedAt": "2026-11-18",
+   "note": "Unlocks when: you hit 20 enemies with explosive damage. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first."
+  },
+  {
+   "id": "c-010",
+   "name": "Vehicle force: collisions launch targets",
+   "effect": "Combat",
+   "sequence": [
+    "down",
+    "up",
+    "left",
+    "left",
+    "right",
+    "down",
+    "left",
+    "up",
+    "down"
+   ],
+   "status": "reported",
+   "checkedAt": "2026-11-18",
+   "note": "Unlocks when: you take down 25 enemies with a vehicle. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first."
+  },
+  {
+   "id": "c-011",
+   "name": "Spawn: shopping-challenge vehicle",
+   "effect": "Vehicles",
+   "sequence": [
+    "left",
+    "up",
+    "right",
+    "down",
+    "left",
+    "left",
+    "up",
+    "left"
+   ],
+   "status": "reported",
+   "checkedAt": "2026-11-18",
+   "note": "Unlocks when: you complete 5 shopping challenges. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first."
+  },
+  {
+   "id": "c-012",
+   "name": "Spawn: fire truck",
+   "effect": "Vehicles",
+   "sequence": [
+    "left",
+    "up",
+    "right",
+    "down",
+    "left",
+    "right",
+    "right",
+    "up"
+   ],
+   "status": "reported",
+   "checkedAt": "2026-11-18",
+   "note": "Unlocks when: not confirmed yet. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first."
+  },
+  {
+   "id": "c-013",
+   "name": "Spawn: bulldozer",
+   "effect": "Vehicles",
+   "sequence": [
+    "left",
+    "up",
+    "right",
+    "down",
+    "left",
+    "right",
+    "right",
+    "down"
+   ],
+   "status": "reported",
+   "checkedAt": "2026-11-18",
+   "note": "Unlocks when: you discover the bulldozer in the progress menu. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first."
+  },
+  {
+   "id": "c-014",
+   "name": "Cycle the weather",
+   "effect": "World",
+   "sequence": [
+    "down",
+    "right",
+    "up",
+    "down",
+    "right",
+    "up",
+    "right"
+   ],
+   "status": "reported",
+   "checkedAt": "2026-11-18",
+   "note": "Unlocks when: you finish the story. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first."
+  },
+  {
+   "id": "c-015",
+   "name": "Filter: murky smoke",
+   "effect": "Screen filters",
+   "sequence": [
+    "down",
+    "down",
+    "up",
+    "right",
+    "right",
+    "up",
+    "left",
+    "left",
+    "right",
+    "right"
+   ],
+   "status": "reported",
+   "checkedAt": "2026-11-18",
+   "note": "Unlocks when: you discover a certain vehicle in the progress menu. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first."
+  },
+  {
+   "id": "c-016",
+   "name": "Filter: vivid, narrow frame",
+   "effect": "Screen filters",
+   "sequence": [
+    "down",
+    "down",
+    "up",
+    "right",
+    "right",
+    "up",
+    "left",
+    "left",
+    "down",
+    "right"
+   ],
+   "status": "reported",
+   "checkedAt": "2026-11-18",
+   "note": "Unlocks when: you spend 8 hours with your partner. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first."
+  },
+  {
+   "id": "c-017",
+   "name": "Filter: colour old TV",
+   "effect": "Screen filters",
+   "sequence": [
+    "down",
+    "down",
+    "up",
+    "right",
+    "right",
+    "up",
+    "left",
+    "left",
+    "left",
+    "right"
+   ],
+   "status": "reported",
+   "checkedAt": "2026-11-18",
+   "note": "Unlocks when: you rob 50 stores with your partner. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first."
+  }
+ ],
+ "trophies": [
+  {
+   "id": "t-001",
+   "name": "Everything",
+   "detail": "Earn every other trophy.",
+   "grade": "platinum"
+  },
+  {
+   "id": "t-002",
+   "name": "First steps",
+   "detail": "Finish the first story mission.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-003",
+   "name": "Chapter 1",
+   "detail": "Finish chapter 1 of the story.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-004",
+   "name": "Chapter 2",
+   "detail": "Finish chapter 2 of the story.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-005",
+   "name": "Chapter 3",
+   "detail": "Finish chapter 3 of the story.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-006",
+   "name": "Chapter 4",
+   "detail": "Finish chapter 4 of the story.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-007",
+   "name": "The ending",
+   "detail": "Finish the story.",
+   "grade": "gold"
+  },
+  {
+   "id": "t-008",
+   "name": "Story mission 1 of 6",
+   "detail": "Finish one particular main story mission. Its name is left out here to avoid spoilers.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-009",
+   "name": "Story mission 2 of 6",
+   "detail": "Finish one particular main story mission. Its name is left out here to avoid spoilers.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-010",
+   "name": "Story mission 3 of 6",
+   "detail": "Finish one particular main story mission. Its name is left out here to avoid spoilers.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-011",
+   "name": "Story mission 4 of 6",
+   "detail": "Finish one particular main story mission. Its name is left out here to avoid spoilers.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-012",
+   "name": "Story mission 5 of 6",
+   "detail": "Finish one particular main story mission. Its name is left out here to avoid spoilers.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-013",
+   "name": "Story mission 6 of 6",
+   "detail": "Finish one particular main story mission. Its name is left out here to avoid spoilers.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-014",
+   "name": "One hundred percent",
+   "detail": "Reach 100% on the game's own completion list. The longest one.",
+   "grade": "gold"
+  },
+  {
+   "id": "t-015",
+   "name": "250 stunts",
+   "detail": "Complete 250 of the 397 stunts.",
+   "grade": "silver"
+  },
+  {
+   "id": "t-016",
+   "name": "Try everything once",
+   "detail": "Do each of 9 kinds of activity once.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-017",
+   "name": "Range master",
+   "detail": "Earn gold in all 42 shooting-range challenges.",
+   "grade": "silver"
+  },
+  {
+   "id": "t-018",
+   "name": "Drone racer",
+   "detail": "Win a drone race at each of the 14 locations.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-019",
+   "name": "Twenty races",
+   "detail": "Win 20 different races.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-020",
+   "name": "Fishing rival",
+   "detail": "Beat a rival in a fishing challenge.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-021",
+   "name": "Arcade run",
+   "detail": "Finish one arcade game.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-022",
+   "name": "Side questline 1 of 5",
+   "detail": "Finish one side character's questline through its last mission.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-023",
+   "name": "Side questline 2 of 5",
+   "detail": "Finish one side character's questline through its last mission.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-024",
+   "name": "Side questline 3 of 5",
+   "detail": "Finish one side character's questline through its last mission.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-025",
+   "name": "Eight strangers",
+   "detail": "Finish 8 stranger mission strands.",
+   "grade": "silver"
+  },
+  {
+   "id": "t-026",
+   "name": "Side questline 4 of 5",
+   "detail": "Finish one side character's questline through its last mission.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-027",
+   "name": "Side questline 5 of 5",
+   "detail": "Finish one side character's questline through its last mission.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-028",
+   "name": "All 18 meditation spots",
+   "detail": "Meditate at all 18 spots. Reported as possibly missable: one spot is at a house early in chapter 1.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-029",
+   "name": "Unique animal",
+   "detail": "Hunt one unique animal for a collector. Which animal is not confirmed yet.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-030",
+   "name": "Three card sets",
+   "detail": "Complete 3 collectible card sets.",
+   "grade": "silver"
+  },
+  {
+   "id": "t-031",
+   "name": "100 scans",
+   "detail": "Scan 100 locations with the in-game scanner app.",
+   "grade": "silver"
+  },
+  {
+   "id": "t-032",
+   "name": "50 challenges",
+   "detail": "Complete 50 of the 80 challenges.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-033",
+   "name": "Four stars together",
+   "detail": "Lose a 4-star wanted level with your partner.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-034",
+   "name": "Three shops in a row",
+   "detail": "Rob 3 shops in a row with your partner without losing your wanted level.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-035",
+   "name": "100 vehicles",
+   "detail": "Discover 100 vehicles.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-036",
+   "name": "Five in one focus",
+   "detail": "Take down 5 enemies in a single use of the focus ability.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-037",
+   "name": "Borrowed airliner",
+   "detail": "Steal a passenger plane from the airport and fly away.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-038",
+   "name": "Borrowed tank",
+   "detail": "Steal a military tank and fire on enemies.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-039",
+   "name": "Quiet jewelry job",
+   "detail": "Rob a jewelry store without being detected.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-040",
+   "name": "Five vaults",
+   "detail": "Rob 5 bank vaults and escape.",
+   "grade": "silver"
+  },
+  {
+   "id": "t-041",
+   "name": "Armored truck",
+   "detail": "Rob an armored truck and escape.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-042",
+   "name": "The whole map",
+   "detail": "Uncover the entire map.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-043",
+   "name": "Nine gangs",
+   "detail": "Rob one illegal operation from each of the 9 gangs.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-044",
+   "name": "Not confirmed yet (1 of 5)",
+   "detail": "The requirement for this trophy has not been confirmed. This entry will be updated.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-045",
+   "name": "Not confirmed yet (2 of 5)",
+   "detail": "The requirement for this trophy has not been confirmed. This entry will be updated.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-046",
+   "name": "Bowling alley job",
+   "detail": "Steal all 3 valuables in the bowling alley job and escape.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-047",
+   "name": "Peak strength",
+   "detail": "Reach maximum strength with both characters.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-048",
+   "name": "500 profile actions",
+   "detail": "Perform 500 actions that affect your criminal profile.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-049",
+   "name": "Not confirmed yet (3 of 5)",
+   "detail": "The requirement for this trophy has not been confirmed. This entry will be updated.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-050",
+   "name": "Not confirmed yet (4 of 5)",
+   "detail": "The requirement for this trophy has not been confirmed. This entry will be updated.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-051",
+   "name": "Not confirmed yet (5 of 5)",
+   "detail": "The requirement for this trophy has not been confirmed. This entry will be updated.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-052",
+   "name": "Clean money",
+   "detail": "Launder 250,000 in marked bills through fences.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-053",
+   "name": "Big spender",
+   "detail": "Spend 100,000 in shops.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-054",
+   "name": "All 8 garages",
+   "detail": "Buy all 8 garages that are for sale.",
+   "grade": "bronze"
+  },
+  {
+   "id": "t-055",
+   "name": "Ten registrations",
+   "detail": "Register 10 vehicles with the in-game vehicle app.",
+   "grade": "bronze"
+  }
+ ],
+ "checkpoints": [
+  {
+   "id": "cp-00",
+   "label": "Opening",
+   "progress": 0
+  },
+  {
+   "id": "cp-01",
+   "label": "Chapter 1 finished",
+   "progress": 20
+  },
+  {
+   "id": "cp-02",
+   "label": "Chapter 2 finished",
+   "progress": 40
+  },
+  {
+   "id": "cp-03",
+   "label": "Chapter 3 finished",
+   "progress": 60
+  },
+  {
+   "id": "cp-04",
+   "label": "Chapter 4 finished",
+   "progress": 80
+  },
+  {
+   "id": "cp-05",
+   "label": "Story finished",
+   "progress": 100
+  }
+ ]
 }
