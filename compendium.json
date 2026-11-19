@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "bundleVersion": 3,
+ "bundleVersion": 4,
  "updatedAt": "2026-11-18",
  "categories": [
   {
@@ -24,7 +24,6 @@
    "id": "req-story-01",
    "category": "story",
    "name": "Finish the main story",
-   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
    ]
@@ -33,7 +32,6 @@
    "id": "req-story-02",
    "category": "story",
    "name": "Optional tasks: 100",
-   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
    ],
@@ -43,7 +41,6 @@
    "id": "req-story-03",
    "category": "story",
    "name": "Gang operations: all 39",
-   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
    ],
@@ -53,7 +50,6 @@
    "id": "req-story-04",
    "category": "story",
    "name": "Bank jobs: all 22",
-   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
    ],
@@ -63,7 +59,6 @@
    "id": "req-story-05",
    "category": "story",
    "name": "Loan-store jobs: all 7",
-   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
    ],
@@ -73,7 +68,6 @@
    "id": "req-story-06",
    "category": "story",
    "name": "Smash-and-grabs: 34 of 35",
-   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
    ],
@@ -84,7 +78,6 @@
    "id": "req-story-07",
    "category": "story",
    "name": "Stick-ups: 50 of 91",
-   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
    ],
@@ -95,7 +88,6 @@
    "id": "req-story-08",
    "category": "story",
    "name": "Narcotics fenced: 100,000",
-   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
    ],
@@ -105,7 +97,6 @@
    "id": "req-story-09",
    "category": "story",
    "name": "Jewelry fenced: 100,000",
-   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
    ],
@@ -115,7 +106,6 @@
    "id": "req-story-10",
    "category": "story",
    "name": "Marked bills fenced: 250,000",
-   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
    ],
@@ -125,7 +115,6 @@
    "id": "req-story-11",
    "category": "story",
    "name": "Large bank vaults: all 8",
-   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
    ],
@@ -135,7 +124,6 @@
    "id": "req-story-12",
    "category": "story",
    "name": "Vehicles fenced: 200,000",
-   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
    ],
@@ -145,7 +133,6 @@
    "id": "req-explore-01",
    "category": "explore",
    "name": "Treasure sets: 5 of 7",
-   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
    ],
@@ -156,7 +143,6 @@
    "id": "req-explore-02",
    "category": "explore",
    "name": "Collectible card sets: 15 of 18",
-   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
    ],
@@ -167,7 +153,6 @@
    "id": "req-explore-03",
    "category": "explore",
    "name": "Scanner app locations: 100",
-   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
    ],
@@ -177,7 +162,6 @@
    "id": "req-explore-04",
    "category": "explore",
    "name": "Underwater discoveries: all 33",
-   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
    ],
@@ -187,7 +171,6 @@
    "id": "req-explore-05",
    "category": "explore",
    "name": "Magazines, books and comics: 30 of 34",
-   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
    ],
@@ -198,7 +181,6 @@
    "id": "req-explore-06",
    "category": "explore",
    "name": "Meditation spots: 15 of 18",
-   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
    ],
@@ -209,7 +191,6 @@
    "id": "req-explore-07",
    "category": "explore",
    "name": "Flamingo statues destroyed: 100 of 125",
-   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
    ],
@@ -220,7 +201,6 @@
    "id": "req-explore-08",
    "category": "explore",
    "name": "Playlists: both",
-   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
    ],
@@ -230,7 +210,6 @@
    "id": "req-explore-09",
    "category": "explore",
    "name": "Styles discovered: 70 of 79",
-   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
    ],
@@ -241,7 +220,6 @@
    "id": "req-explore-10",
    "category": "explore",
    "name": "Different races won: 30 of 40",
-   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
    ],
@@ -252,7 +230,6 @@
    "id": "req-explore-11",
    "category": "explore",
    "name": "Race challenge golds: 10 of 13",
-   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
    ],
@@ -263,7 +240,6 @@
    "id": "req-explore-12",
    "category": "explore",
    "name": "Shooting range golds: all 42",
-   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
    ],
@@ -273,7 +249,6 @@
    "id": "req-explore-13",
    "category": "explore",
    "name": "Video games played: all 4",
-   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
    ],
@@ -283,7 +258,6 @@
    "id": "req-explore-14",
    "category": "explore",
    "name": "Pool opponents beaten: 5 of 7",
-   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
    ],
@@ -294,7 +268,6 @@
    "id": "req-explore-15",
    "category": "explore",
    "name": "Mini golf courses played: 2 of 3",
-   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
    ],
@@ -305,7 +278,6 @@
    "id": "req-explore-16",
    "category": "explore",
    "name": "Basketball hoops: 90 of 100",
-   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
    ],
@@ -316,7 +288,6 @@
    "id": "req-explore-17",
    "category": "explore",
    "name": "Drone time trials: all 42",
-   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
    ],
@@ -326,7 +297,6 @@
    "id": "req-explore-18",
    "category": "explore",
    "name": "Stunts: 300 of 397",
-   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
    ],
@@ -337,7 +307,6 @@
    "id": "req-explore-19",
    "category": "explore",
    "name": "Challenges: 70 of 80",
-   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
    ],
@@ -348,7 +317,6 @@
    "id": "req-explore-20",
    "category": "explore",
    "name": "Target decks: all 15",
-   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
    ],
@@ -358,7 +326,6 @@
    "id": "req-discover-01",
    "category": "discover",
    "name": "Base model vehicles scanned: 200 of 277",
-   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
    ],
@@ -369,7 +336,6 @@
    "id": "req-discover-02",
    "category": "discover",
    "name": "Standard weapons: 50 of 66",
-   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
    ],
@@ -380,7 +346,6 @@
    "id": "req-discover-03",
    "category": "discover",
    "name": "Animals studied: 100 of 255",
-   "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
    ],
