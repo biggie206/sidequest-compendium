@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "bundleVersion": 3,
+ "bundleVersion": 4,
  "updatedAt": "2026-11-18",
  "codes": [
   {
@@ -19,7 +19,8 @@
    ],
    "status": "reported",
    "checkedAt": "2026-11-18",
-   "note": "Unlocks when: you finish the story. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first."
+   "note": "Unlocks when: you finish the story. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first.",
+   "unlock": "you finish the story."
   },
   {
    "id": "c-002",
@@ -36,7 +37,8 @@
    ],
    "status": "reported",
    "checkedAt": "2026-11-18",
-   "note": "Unlocks when: you lose a 3-star wanted level 25 times. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first."
+   "note": "Unlocks when: you lose a 3-star wanted level 25 times. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first.",
+   "unlock": "you lose a 3-star wanted level 25 times."
   },
   {
    "id": "c-003",
@@ -56,7 +58,8 @@
    ],
    "status": "reported",
    "checkedAt": "2026-11-18",
-   "note": "Unlocks when: you finish the story. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first."
+   "note": "Unlocks when: you finish the story. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first.",
+   "unlock": "you finish the story."
   },
   {
    "id": "c-004",
@@ -76,7 +79,8 @@
    ],
    "status": "reported",
    "checkedAt": "2026-11-18",
-   "note": "Unlocks when: you complete 100 workouts. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first."
+   "note": "Unlocks when: you complete 100 workouts. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first.",
+   "unlock": "you complete 100 workouts."
   },
   {
    "id": "c-005",
@@ -96,7 +100,8 @@
    ],
    "status": "reported",
    "checkedAt": "2026-11-18",
-   "note": "Unlocks when: you earn 25 shooting-range medals, bronze or better. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first."
+   "note": "Unlocks when: you earn 25 shooting-range medals, bronze or better. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first.",
+   "unlock": "you earn 25 shooting-range medals, bronze or better."
   },
   {
    "id": "c-006",
@@ -116,7 +121,8 @@
    ],
    "status": "reported",
    "checkedAt": "2026-11-18",
-   "note": "Unlocks when: you earn 25 shooting-range medals, silver or better. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first."
+   "note": "Unlocks when: you earn 25 shooting-range medals, silver or better. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first.",
+   "unlock": "you earn 25 shooting-range medals, silver or better."
   },
   {
    "id": "c-007",
@@ -136,7 +142,8 @@
    ],
    "status": "reported",
    "checkedAt": "2026-11-18",
-   "note": "Unlocks when: you earn 25 gold shooting-range medals. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first."
+   "note": "Unlocks when: you earn 25 gold shooting-range medals. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first.",
+   "unlock": "you earn 25 gold shooting-range medals."
   },
   {
    "id": "c-008",
@@ -155,7 +162,8 @@
    ],
    "status": "reported",
    "checkedAt": "2026-11-18",
-   "note": "Unlocks when: you finish the story. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first."
+   "note": "Unlocks when: you finish the story. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first.",
+   "unlock": "you finish the story."
   },
   {
    "id": "c-009",
@@ -174,7 +182,8 @@
    ],
    "status": "reported",
    "checkedAt": "2026-11-18",
-   "note": "Unlocks when: you hit 20 enemies with explosive damage. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first."
+   "note": "Unlocks when: you hit 20 enemies with explosive damage. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first.",
+   "unlock": "you hit 20 enemies with explosive damage."
   },
   {
    "id": "c-010",
@@ -193,7 +202,8 @@
    ],
    "status": "reported",
    "checkedAt": "2026-11-18",
-   "note": "Unlocks when: you take down 25 enemies with a vehicle. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first."
+   "note": "Unlocks when: you take down 25 enemies with a vehicle. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first.",
+   "unlock": "you take down 25 enemies with a vehicle."
   },
   {
    "id": "c-011",
@@ -211,7 +221,8 @@
    ],
    "status": "reported",
    "checkedAt": "2026-11-18",
-   "note": "Unlocks when: you complete 5 shopping challenges. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first."
+   "note": "Unlocks when: you complete 5 shopping challenges. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first.",
+   "unlock": "you complete 5 shopping challenges."
   },
   {
    "id": "c-012",
@@ -229,7 +240,8 @@
    ],
    "status": "reported",
    "checkedAt": "2026-11-18",
-   "note": "Unlocks when: not confirmed yet. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first."
+   "note": "Unlocks when: not confirmed yet. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first.",
+   "unlock": "not confirmed yet."
   },
   {
    "id": "c-013",
@@ -247,7 +259,8 @@
    ],
    "status": "reported",
    "checkedAt": "2026-11-18",
-   "note": "Unlocks when: you discover the bulldozer in the progress menu. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first."
+   "note": "Unlocks when: you discover the bulldozer in the progress menu. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first.",
+   "unlock": "you discover the bulldozer in the progress menu."
   },
   {
    "id": "c-014",
@@ -264,7 +277,8 @@
    ],
    "status": "reported",
    "checkedAt": "2026-11-18",
-   "note": "Unlocks when: you finish the story. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first."
+   "note": "Unlocks when: you finish the story. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first.",
+   "unlock": "you finish the story."
   },
   {
    "id": "c-015",
@@ -284,7 +298,8 @@
    ],
    "status": "reported",
    "checkedAt": "2026-11-18",
-   "note": "Unlocks when: you discover a certain vehicle in the progress menu. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first."
+   "note": "Unlocks when: you discover a certain vehicle in the progress menu. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first.",
+   "unlock": "you discover a certain vehicle in the progress menu."
   },
   {
    "id": "c-016",
@@ -304,7 +319,8 @@
    ],
    "status": "reported",
    "checkedAt": "2026-11-18",
-   "note": "Unlocks when: you spend 8 hours with your partner. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first."
+   "note": "Unlocks when: you spend 8 hours with your partner. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first.",
+   "unlock": "you spend 8 hours with your partner."
   },
   {
    "id": "c-017",
@@ -324,7 +340,8 @@
    ],
    "status": "reported",
    "checkedAt": "2026-11-18",
-   "note": "Unlocks when: you rob 50 stores with your partner. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first."
+   "note": "Unlocks when: you rob 50 stores with your partner. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first.",
+   "unlock": "you rob 50 stores with your partner."
   }
  ],
  "trophies": [
@@ -690,5 +707,7 @@
    "label": "Story finished",
    "progress": 100
   }
- ]
+ ],
+ "codesHowTo": "To enter a code: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. A code only works once the game has unlocked it.",
+ "codesWarning": "Using a code turns off trophies and saving for that session. Save first."
 }
