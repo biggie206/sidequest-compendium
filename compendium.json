@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "bundleVersion": 2,
+ "bundleVersion": 3,
  "updatedAt": "2026-11-18",
  "categories": [
   {
@@ -36,7 +36,8 @@
    "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
-   ]
+   ],
+   "target": 100
   },
   {
    "id": "req-story-03",
@@ -45,7 +46,8 @@
    "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
-   ]
+   ],
+   "target": 39
   },
   {
    "id": "req-story-04",
@@ -54,7 +56,8 @@
    "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
-   ]
+   ],
+   "target": 22
   },
   {
    "id": "req-story-05",
@@ -63,7 +66,8 @@
    "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
-   ]
+   ],
+   "target": 7
   },
   {
    "id": "req-story-06",
@@ -72,7 +76,9 @@
    "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
-   ]
+   ],
+   "target": 34,
+   "total": 35
   },
   {
    "id": "req-story-07",
@@ -81,7 +87,9 @@
    "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
-   ]
+   ],
+   "target": 50,
+   "total": 91
   },
   {
    "id": "req-story-08",
@@ -90,7 +98,8 @@
    "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
-   ]
+   ],
+   "target": 100000
   },
   {
    "id": "req-story-09",
@@ -99,7 +108,8 @@
    "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
-   ]
+   ],
+   "target": 100000
   },
   {
    "id": "req-story-10",
@@ -108,7 +118,8 @@
    "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
-   ]
+   ],
+   "target": 250000
   },
   {
    "id": "req-story-11",
@@ -117,7 +128,8 @@
    "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
-   ]
+   ],
+   "target": 8
   },
   {
    "id": "req-story-12",
@@ -126,7 +138,8 @@
    "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
-   ]
+   ],
+   "target": 200000
   },
   {
    "id": "req-explore-01",
@@ -135,7 +148,9 @@
    "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
-   ]
+   ],
+   "target": 5,
+   "total": 7
   },
   {
    "id": "req-explore-02",
@@ -144,7 +159,9 @@
    "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
-   ]
+   ],
+   "target": 15,
+   "total": 18
   },
   {
    "id": "req-explore-03",
@@ -153,7 +170,8 @@
    "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
-   ]
+   ],
+   "target": 100
   },
   {
    "id": "req-explore-04",
@@ -162,7 +180,8 @@
    "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
-   ]
+   ],
+   "target": 33
   },
   {
    "id": "req-explore-05",
@@ -171,7 +190,9 @@
    "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
-   ]
+   ],
+   "target": 30,
+   "total": 34
   },
   {
    "id": "req-explore-06",
@@ -180,7 +201,9 @@
    "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
-   ]
+   ],
+   "target": 15,
+   "total": 18
   },
   {
    "id": "req-explore-07",
@@ -189,7 +212,9 @@
    "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
-   ]
+   ],
+   "target": 100,
+   "total": 125
   },
   {
    "id": "req-explore-08",
@@ -198,7 +223,8 @@
    "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
-   ]
+   ],
+   "target": 2
   },
   {
    "id": "req-explore-09",
@@ -207,7 +233,9 @@
    "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
-   ]
+   ],
+   "target": 70,
+   "total": 79
   },
   {
    "id": "req-explore-10",
@@ -216,7 +244,9 @@
    "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
-   ]
+   ],
+   "target": 30,
+   "total": 40
   },
   {
    "id": "req-explore-11",
@@ -225,7 +255,9 @@
    "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
-   ]
+   ],
+   "target": 10,
+   "total": 13
   },
   {
    "id": "req-explore-12",
@@ -234,7 +266,8 @@
    "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
-   ]
+   ],
+   "target": 42
   },
   {
    "id": "req-explore-13",
@@ -243,7 +276,8 @@
    "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
-   ]
+   ],
+   "target": 4
   },
   {
    "id": "req-explore-14",
@@ -252,7 +286,9 @@
    "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
-   ]
+   ],
+   "target": 5,
+   "total": 7
   },
   {
    "id": "req-explore-15",
@@ -261,7 +297,9 @@
    "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
-   ]
+   ],
+   "target": 2,
+   "total": 3
   },
   {
    "id": "req-explore-16",
@@ -270,7 +308,9 @@
    "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
-   ]
+   ],
+   "target": 90,
+   "total": 100
   },
   {
    "id": "req-explore-17",
@@ -279,7 +319,8 @@
    "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
-   ]
+   ],
+   "target": 42
   },
   {
    "id": "req-explore-18",
@@ -288,7 +329,9 @@
    "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
-   ]
+   ],
+   "target": 300,
+   "total": 397
   },
   {
    "id": "req-explore-19",
@@ -297,7 +340,9 @@
    "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
-   ]
+   ],
+   "target": 70,
+   "total": 80
   },
   {
    "id": "req-explore-20",
@@ -306,7 +351,8 @@
    "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
-   ]
+   ],
+   "target": 15
   },
   {
    "id": "req-discover-01",
@@ -315,7 +361,9 @@
    "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
-   ]
+   ],
+   "target": 200,
+   "total": 277
   },
   {
    "id": "req-discover-02",
@@ -324,7 +372,9 @@
    "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
-   ]
+   ],
+   "target": 50,
+   "total": 66
   },
   {
    "id": "req-discover-03",
@@ -333,7 +383,9 @@
    "hint": "From the game's own completion list. Check the Progress menu in the game for your count.",
    "tags": [
     "100%"
-   ]
+   ],
+   "target": 100,
+   "total": 255
   }
  ],
  "checkpoints": [
