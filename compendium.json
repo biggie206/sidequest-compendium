@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "bundleVersion": 4,
+ "bundleVersion": 5,
  "updatedAt": "2026-11-18",
  "categories": [
   {
@@ -152,11 +152,12 @@
   {
    "id": "req-explore-03",
    "category": "explore",
-   "name": "Scanner app locations: 100",
+   "name": "Scanner app locations: 100 of 112",
    "tags": [
     "100%"
    ],
-   "target": 100
+   "target": 100,
+   "total": 112
   },
   {
    "id": "req-explore-04",

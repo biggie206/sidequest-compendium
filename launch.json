@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "bundleVersion": 4,
+ "bundleVersion": 5,
  "updatedAt": "2026-11-18",
  "codes": [
   {
@@ -240,8 +240,8 @@
    ],
    "status": "reported",
    "checkedAt": "2026-11-18",
-   "note": "Unlocks when: not confirmed yet. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first.",
-   "unlock": "not confirmed yet."
+   "note": "Unlocks when: not settled: guides disagree (one says discover it in the progress menu). To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first.",
+   "unlock": "not settled: guides disagree (one says discover it in the progress menu)."
   },
   {
    "id": "c-013",
@@ -342,6 +342,454 @@
    "checkedAt": "2026-11-18",
    "note": "Unlocks when: you rob 50 stores with your partner. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first.",
    "unlock": "you rob 50 stores with your partner."
+  },
+  {
+   "id": "c-018",
+   "name": "Raise wanted level",
+   "effect": "Player",
+   "sequence": [
+    "left",
+    "down",
+    "right",
+    "down",
+    "up",
+    "right",
+    "up"
+   ],
+   "status": "reported",
+   "checkedAt": "2026-11-18",
+   "unlock": "you lose a 3-star wanted level 50 times.",
+   "note": "Unlocks when: you lose a 3-star wanted level 50 times. Listed by three guides; one hands-on guide has not confirmed it yet. To enter: open the in-game phone (d-pad up), hold L1 / LB, press R1 / RB, then the arrows. Using a code turns off trophies and saving for that session, so save first."
+  },
+  {
+   "id": "c-019",
+   "name": "Drunk",
+   "effect": "Player",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you spend 2,500 on alcohol.",
+   "note": "Buttons not published yet. Unlocks when: you spend 2,500 on alcohol."
+  },
+  {
+   "id": "c-020",
+   "name": "No fall damage",
+   "effect": "Player",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you survive a 40-foot fall 20 times.",
+   "note": "Buttons not published yet. Unlocks when: you survive a 40-foot fall 20 times."
+  },
+  {
+   "id": "c-021",
+   "name": "Parachute",
+   "effect": "Player",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you complete 50 skydives or base jumps from 300 feet or more.",
+   "note": "Buttons not published yet. Unlocks when: you complete 50 skydives or base jumps from 300 feet or more."
+  },
+  {
+   "id": "c-022",
+   "name": "Repair vehicle",
+   "effect": "Player",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you take first place in 10 races at each of three race venues.",
+   "note": "Buttons not published yet. Unlocks when: you take first place in 10 races at each of three race venues."
+  },
+  {
+   "id": "c-023",
+   "name": "Unlimited nitrous and fuel",
+   "effect": "Player",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you complete 50 stunt jumps.",
+   "note": "Buttons not published yet. Unlocks when: you complete 50 stunt jumps."
+  },
+  {
+   "id": "c-024",
+   "name": "All explosive weapons",
+   "effect": "Combat",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you throw 100 grenades.",
+   "note": "Buttons not published yet. Unlocks when: you throw 100 grenades."
+  },
+  {
+   "id": "c-025",
+   "name": "Incendiary ammo",
+   "effect": "Combat",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you burn 100 enemies.",
+   "note": "Buttons not published yet. Unlocks when: you burn 100 enemies."
+  },
+  {
+   "id": "c-026",
+   "name": "Exploding bottles",
+   "effect": "Combat",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you throw 100 fire bottles.",
+   "note": "Buttons not published yet. Unlocks when: you throw 100 fire bottles."
+  },
+  {
+   "id": "c-027",
+   "name": "Explosive shotgun",
+   "effect": "Combat",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you hit 100 enemies with explosive damage.",
+   "note": "Buttons not published yet. Unlocks when: you hit 100 enemies with explosive damage."
+  },
+  {
+   "id": "c-028",
+   "name": "Rocket launcher",
+   "effect": "Combat",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you blow up 100 vehicles.",
+   "note": "Buttons not published yet. Unlocks when: you blow up 100 vehicles."
+  },
+  {
+   "id": "c-029",
+   "name": "Spawn: ambulance",
+   "effect": "Vehicles",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you discover the ambulance in the progress menu.",
+   "note": "Buttons not published yet. Unlocks when: you discover the ambulance in the progress menu."
+  },
+  {
+   "id": "c-030",
+   "name": "Spawn: airboat",
+   "effect": "Vehicles",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you complete 5 survival challenges.",
+   "note": "Buttons not published yet. Unlocks when: you complete 5 survival challenges."
+  },
+  {
+   "id": "c-031",
+   "name": "Spawn: sports car",
+   "effect": "Vehicles",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you complete all combat challenges.",
+   "note": "Buttons not published yet. Unlocks when: you complete all combat challenges."
+  },
+  {
+   "id": "c-032",
+   "name": "Spawn: BMX bike",
+   "effect": "Vehicles",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you complete 5 fitness challenges.",
+   "note": "Buttons not published yet. Unlocks when: you complete 5 fitness challenges."
+  },
+  {
+   "id": "c-033",
+   "name": "Spawn: sport bike",
+   "effect": "Vehicles",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you complete all exploration challenges.",
+   "note": "Buttons not published yet. Unlocks when: you complete all exploration challenges."
+  },
+  {
+   "id": "c-034",
+   "name": "Spawn: classic muscle car",
+   "effect": "Vehicles",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you complete all fitness challenges.",
+   "note": "Buttons not published yet. Unlocks when: you complete all fitness challenges."
+  },
+  {
+   "id": "c-035",
+   "name": "Spawn: supercar (vehicle challenges)",
+   "effect": "Vehicles",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you complete all vehicle challenges.",
+   "note": "Buttons not published yet. Unlocks when: you complete all vehicle challenges."
+  },
+  {
+   "id": "c-036",
+   "name": "Spawn: inflatable flamingo",
+   "effect": "Vehicles",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you destroy 50 of the flamingo statues.",
+   "note": "Buttons not published yet. Unlocks when: you destroy 50 of the flamingo statues."
+  },
+  {
+   "id": "c-037",
+   "name": "Spawn: taxi",
+   "effect": "Vehicles",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you complete 5 sports challenges.",
+   "note": "Buttons not published yet. Unlocks when: you complete 5 sports challenges."
+  },
+  {
+   "id": "c-038",
+   "name": "Spawn: fighter jet",
+   "effect": "Vehicles",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you complete all challenges.",
+   "note": "Buttons not published yet. Unlocks when: you complete all challenges."
+  },
+  {
+   "id": "c-039",
+   "name": "Spawn: light plane",
+   "effect": "Vehicles",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you complete 5 vehicle challenges.",
+   "note": "Buttons not published yet. Unlocks when: you complete 5 vehicle challenges."
+  },
+  {
+   "id": "c-040",
+   "name": "Spawn: sports-challenge vehicle",
+   "effect": "Vehicles",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you complete all sports challenges.",
+   "note": "Buttons not published yet. Unlocks when: you complete all sports challenges."
+  },
+  {
+   "id": "c-041",
+   "name": "Spawn: tank",
+   "effect": "Vehicles",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you complete all survival challenges.",
+   "note": "Buttons not published yet. Unlocks when: you complete all survival challenges."
+  },
+  {
+   "id": "c-042",
+   "name": "Spawn: dirt bike",
+   "effect": "Vehicles",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you complete 5 criminal challenges.",
+   "note": "Buttons not published yet. Unlocks when: you complete 5 criminal challenges."
+  },
+  {
+   "id": "c-043",
+   "name": "Spawn: small helicopter",
+   "effect": "Vehicles",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you complete 5 exploration challenges.",
+   "note": "Buttons not published yet. Unlocks when: you complete 5 exploration challenges."
+  },
+  {
+   "id": "c-044",
+   "name": "Spawn: speedboat",
+   "effect": "Vehicles",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you complete 5 combat challenges.",
+   "note": "Buttons not published yet. Unlocks when: you complete 5 combat challenges."
+  },
+  {
+   "id": "c-045",
+   "name": "Spawn: supercar (shopping challenges)",
+   "effect": "Vehicles",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you complete all shopping challenges.",
+   "note": "Buttons not published yet. Unlocks when: you complete all shopping challenges."
+  },
+  {
+   "id": "c-046",
+   "name": "Spawn: chopper motorcycle",
+   "effect": "Vehicles",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you complete all criminal challenges.",
+   "note": "Buttons not published yet. Unlocks when: you complete all criminal challenges."
+  },
+  {
+   "id": "c-047",
+   "name": "Move time forward",
+   "effect": "World",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you find 10 collectible watches.",
+   "note": "Buttons not published yet. Unlocks when: you find 10 collectible watches."
+  },
+  {
+   "id": "c-048",
+   "name": "Pause the time of day",
+   "effect": "World",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you find 20 collectible watches.",
+   "note": "Buttons not published yet. Unlocks when: you find 20 collectible watches."
+  },
+  {
+   "id": "c-049",
+   "name": "Filter: golden hour, widescreen",
+   "effect": "Screen filters",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you spend 4 hours holding hands with your partner.",
+   "note": "Buttons not published yet. Unlocks when: you spend 4 hours holding hands with your partner."
+  },
+  {
+   "id": "c-050",
+   "name": "Filter: white world with sparkle",
+   "effect": "Screen filters",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you scan all space debris with the in-game scanner app.",
+   "note": "Buttons not published yet. Unlocks when: you scan all space debris with the in-game scanner app."
+  },
+  {
+   "id": "c-051",
+   "name": "Filter: pinhole camera",
+   "effect": "Screen filters",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you clear 25 gang operations with your partner.",
+   "note": "Buttons not published yet. Unlocks when: you clear 25 gang operations with your partner."
+  },
+  {
+   "id": "c-052",
+   "name": "Filter: neon highlights",
+   "effect": "Screen filters",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you discover all 16 vehicles of one themed set.",
+   "note": "Buttons not published yet. Unlocks when: you discover all 16 vehicles of one themed set."
+  },
+  {
+   "id": "c-053",
+   "name": "Filter: black-and-white old TV",
+   "effect": "Screen filters",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you discover a certain vehicle.",
+   "note": "Buttons not published yet. Unlocks when: you discover a certain vehicle."
+  },
+  {
+   "id": "c-054",
+   "name": "Filter: videotape",
+   "effect": "Screen filters",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you complete 50 activities with your partner.",
+   "note": "Buttons not published yet. Unlocks when: you complete 50 activities with your partner."
+  },
+  {
+   "id": "c-055",
+   "name": "Filter: upside-down dark world",
+   "effect": "Screen filters",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you make 500,000 selling vehicles.",
+   "note": "Buttons not published yet. Unlocks when: you make 500,000 selling vehicles."
+  },
+  {
+   "id": "c-056",
+   "name": "Filter: blur and distortion",
+   "effect": "Screen filters",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you survive 6 minutes at a 6-star wanted level.",
+   "note": "Buttons not published yet. Unlocks when: you survive 6 minutes at a 6-star wanted level."
+  },
+  {
+   "id": "c-057",
+   "name": "Filter: purple and yellow with sparkle",
+   "effect": "Screen filters",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you find all 24 cards of one collectible card set.",
+   "note": "Buttons not published yet. Unlocks when: you find all 24 cards of one collectible card set."
+  },
+  {
+   "id": "c-058",
+   "name": "Filter: motion blur, fast clouds",
+   "effect": "Screen filters",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you complete 50 meditations.",
+   "note": "Buttons not published yet. Unlocks when: you complete 50 meditations."
+  },
+  {
+   "id": "c-059",
+   "name": "Filter: fisheye",
+   "effect": "Screen filters",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you catch 100 fish.",
+   "note": "Buttons not published yet. Unlocks when: you catch 100 fish."
+  },
+  {
+   "id": "c-060",
+   "name": "Filter: pixel art",
+   "effect": "Screen filters",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you make 250,000 selling collectibles.",
+   "note": "Buttons not published yet. Unlocks when: you make 250,000 selling collectibles."
+  },
+  {
+   "id": "c-061",
+   "name": "Filter: red heat haze",
+   "effect": "Screen filters",
+   "sequence": [],
+   "status": "unconfirmed",
+   "checkedAt": "2026-11-18",
+   "unlock": "you steal 100 police vehicles.",
+   "note": "Buttons not published yet. Unlocks when: you steal 100 police vehicles."
   }
  ],
  "trophies": [
@@ -665,8 +1113,8 @@
   },
   {
    "id": "t-054",
-   "name": "All 8 garages",
-   "detail": "Buy all 8 garages that are for sale.",
+   "name": "Every garage",
+   "detail": "Buy every garage that is for sale. Guides disagree on how many there are (8 or 12).",
    "grade": "bronze"
   },
   {

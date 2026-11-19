@@ -18,7 +18,11 @@ for c in data.get("codes", []):
     if c.get("status") == "verified" and not c.get("checkedAt"): errs.append(f"code {cid}: verified needs checkedAt")
     bad = [t for t in c.get("sequence", []) if t not in TOKENS]
     if bad: errs.append(f"code {cid}: unknown buttons {bad}")
-    if not c.get("sequence") and not c.get("phone"): errs.append(f"code {cid}: needs a sequence or a phone number")
+    # A code whose buttons nobody has published yet may be listed, but only honestly: marked
+    # unconfirmed, with what unlocks it, so the row says something true.
+    if not c.get("sequence") and not c.get("phone"):
+        if c.get("status") != "unconfirmed" or not (c.get("unlock") or c.get("note")):
+            errs.append(f"code {cid}: no sequence or phone, so it must be 'unconfirmed' and say what unlocks it")
 for t in data.get("trophies", []):
     tid = t.get("id")
     if not tid or ("trophy", tid) in seen: errs.append(f"missing or duplicate trophy id: {tid}")
