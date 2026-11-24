@@ -44,7 +44,7 @@ Ready-made pins for the app's own drawn board, and story checklist lines. Older 
 - **`verified` means someone on this project saw it in play.** A pin placed from published guides (two must agree) is `unverified`.
 - Labels and hints are our own words: no place, character or mission names. Story lines are numbered, never named.
 - Exactly 10 pins are marked `free` once there are 10 or more; a free pin carries no `progress`.
-- `line` ties a pin to a checklist item in `compendium.json`. Once published it does not change: publish a new pin id instead.
+- `line` ties a pin to a checklist item in `compendium.json`. Once published it does not change: publish a new pin id instead. A tick-box item takes one pin at most; a counted item takes no more pins than it counts to.
 
 ## Where the launch-week facts came from (2026-11-18)
 Numbers and requirements only, rewritten in our own words; no names, titles or text copied.

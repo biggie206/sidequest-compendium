@@ -8,14 +8,14 @@ KINDS = {"vault", "secret", "collectible", "activity", "other"}
 STATUS = {"verified", "unverified"}
 
 
-def check(data, line_ids, previous=None):
-    """Return a list of problems. `line_ids` = checklist item ids a pin may link to.
+def check(data, lines_by_id, previous=None):
+    """Return a list of problems. `lines_by_id` = checklist item id -> item, for pin links.
     `previous` = the last published map.json, or None."""
     errs = []
     if data.get("schemaVersion") != 1: errs.append("schemaVersion must be 1")
     if not isinstance(data.get("bundleVersion"), int): errs.append("bundleVersion must be an integer")
     pins, lines = data.get("pins", []), data.get("storyLines", [])
-    seen, free = set(), 0
+    seen, free, per_line = set(), 0, {}
     for p in pins:
         pid = p.get("id")
         if not pid or pid in seen: errs.append(f"missing or duplicate pin id: {pid}")
@@ -34,8 +34,16 @@ def check(data, line_ids, previous=None):
             free += 1
             # A free pin is shown to everyone, so it can never be one that hides behind progress.
             if prog is not None: errs.append(f"pin {pid}: a free pin cannot carry a progress value")
-        if p.get("line") is not None and p["line"] not in line_ids:
-            errs.append(f"pin {pid}: line '{p['line']}' is not an item in compendium.json")
+        if p.get("line") is not None:
+            if p["line"] not in lines_by_id: errs.append(f"pin {pid}: line '{p['line']}' is not an item in compendium.json")
+            else: per_line[p["line"]] = per_line.get(p["line"], 0) + 1
+    for lid, n in per_line.items():
+        item = lines_by_id[lid]
+        target, total = item.get("target") or 0, item.get("total") or 0
+        # A tick-box line shares one tick with its pin, so it can have only one. A counted line
+        # moves by one per pin, so it cannot have more pins than it can count to.
+        if target < 2 and n > 1: errs.append(f"line {lid} is a tick box but has {n} pins; one at most")
+        if target >= 2 and n > max(target, total): errs.append(f"line {lid} counts to {max(target, total)} but has {n} pins")
     if free > FREE_LIMIT: errs.append(f"{free} free pins; at most {FREE_LIMIT}")
     if len(pins) >= FREE_LIMIT and free != FREE_LIMIT:
         errs.append(f"{len(pins)} pins but {free} marked free; mark exactly {FREE_LIMIT}")
@@ -75,20 +83,25 @@ def selftest():
     ok = {"schemaVersion": 1, "bundleVersion": 2, "pins": [
         {"id": "a", "x": 0.5, "y": 0.5, "kind": "vault", "label": "A", "status": "unverified", "free": True, "line": "l1"}],
         "storyLines": [{"id": "s", "label": "Chapter 1, job 1", "progress": 0}]}
-    assert check(ok, {"l1"}) == [], check(ok, {"l1"})
+    L = {"l1": {"id": "l1"}, "l2": {"id": "l2"}, "c3": {"id": "c3", "target": 3}}
+    assert check(ok, L) == [], check(ok, L)
     def broken(**change):
-        d = json.loads(json.dumps(ok)); d["pins"][0].update(change); return check(d, {"l1", "l2"}, ok if "line" in change else None)
+        d = json.loads(json.dumps(ok)); d["pins"][0].update(change); return check(d, L, ok if "line" in change else None)
     assert broken(x=1.5) and broken(y="0.5") and broken(label=" ") and broken(kind="bank") and broken(status="sure")
     assert broken(progress=5), "a free pin with progress must fail"
     assert broken(line="nope") and broken(free="yes")
     assert any("line changed" in e for e in broken(line="l2"))
+    twin = json.loads(json.dumps(ok)); twin["pins"].append(dict(twin["pins"][0], id="b", free=False))
+    assert any("tick box" in e for e in check(twin, L))
+    for p in twin["pins"]: p["line"] = "c3"
+    assert check(twin, L) == [], check(twin, L)
     many = {"schemaVersion": 1, "bundleVersion": 1, "pins": [
         {"id": f"p{i}", "x": 0.1, "y": 0.1, "kind": "secret", "label": "P", "status": "unverified", "free": i < 11} for i in range(12)]}
-    assert any("at most" in e for e in check(many, set()))
+    assert any("at most" in e for e in check(many, {}))
     for p in many["pins"]: p["free"] = False
-    assert any("exactly" in e for e in check(many, set()))
-    assert check({"schemaVersion": 1, "bundleVersion": 1, "storyLines": [{"id": "s", "label": "L"}]}, set())
-    assert check({"schemaVersion": 1, "bundleVersion": 1}, set()) == []
+    assert any("exactly" in e for e in check(many, {}))
+    assert check({"schemaVersion": 1, "bundleVersion": 1, "storyLines": [{"id": "s", "label": "L"}]}, {})
+    assert check({"schemaVersion": 1, "bundleVersion": 1}, {}) == []
     print("validate_map selftest ok")
 
 
@@ -96,8 +109,8 @@ if __name__ == "__main__":
     if "--selftest" in sys.argv:
         selftest(); sys.exit(0)
     data = json.load(open("map.json"))
-    line_ids = {i.get("id") for i in json.load(open("compendium.json")).get("items", [])}
-    errs = check(data, line_ids, published())
+    lines_by_id = {i.get("id"): i for i in json.load(open("compendium.json")).get("items", [])}
+    errs = check(data, lines_by_id, published())
     for e in errs: print("::error::" + e)
     print("map.json ok" if not errs else f"{len(errs)} problem(s)")
     sys.exit(1 if errs else 0)
