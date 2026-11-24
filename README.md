@@ -32,6 +32,20 @@ Codes, trophies and story checkpoints. Older app versions never read this file. 
 - **`verified` means someone entered it on a console on the `checkedAt` date.** Seen online is `reported`. Never add a code from an earlier game.
 - Trophy names and requirements are written in your own words; `progress` is where on the 0-100 story scale it stops being a spoiler.
 
+## map.json (app 1.4 and later)
+Ready-made pins for the app's own drawn board, and story checklist lines. Older app versions never read this file. Empty until 1.4 ships. Bump `bundleVersion` on every change.
+```json
+{ "schemaVersion": 1, "bundleVersion": 2, "updatedAt": "YYYY-MM-DD",
+  "pins": [ { "id": "pin-001", "x": 0.42, "y": 0.61, "kind": "vault | secret | collectible | activity | other",
+              "label": "…", "hint": "…", "status": "verified | unverified", "progress": 25, "free": true, "line": "an item id" } ],
+  "storyLines": [ { "id": "story-1-1", "label": "Chapter 1, job 1", "tip": "…", "progress": 0 } ] }
+```
+- `x` and `y` run from 0 to 1 across the app's own drawing, left to right and top to bottom. They are positions on that drawing, not coordinates from the game.
+- **`verified` means someone on this project saw it in play.** A pin placed from published guides (two must agree) is `unverified`.
+- Labels and hints are our own words: no place, character or mission names. Story lines are numbered, never named.
+- Exactly 10 pins are marked `free` once there are 10 or more; a free pin carries no `progress`.
+- `line` ties a pin to a checklist item in `compendium.json`. Once published it does not change: publish a new pin id instead.
+
 ## Where the launch-week facts came from (2026-11-18)
 Numbers and requirements only, rewritten in our own words; no names, titles or text copied.
 - Trophies (55: 1 platinum, 2 gold, 6 silver, 46 bronze) and the 100% requirement counts: the
