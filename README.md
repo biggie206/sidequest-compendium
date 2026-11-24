@@ -50,3 +50,14 @@ Facts only, rewritten in our own words; no names, titles or text copied.
 - They were NOT cross-checked line by line against each page and NOT verified by play. A line
   that starts with "Reported:" is one we already know rests on a single guide.
 - A hint is corrected or removed when someone on this project sees otherwise in the game.
+
+## Robbery spots and secrets (2026-11-24)
+Facts only, in our own words; no place, bank, character, show or game names.
+- Robbery spots (8 lines): two bank guides (games.gg and one fan site) were opened and agree on the
+  eight large vaults, their areas, payout ranges and the small-bank counts ("Reported:" marks
+  what only one of them says); a third (GamerFuzion)
+  agrees on the counts and the how-to. No guide lists the loan-store locations, so none are here.
+- Secrets (8 lines): three pages were opened (Red Bull and two fan sites). Seven lines
+  appear on all three; "After the lights" on two. Where they disagree the hint says so. Finds
+  that are only a reference to a film, show or earlier game are left out.
+- Not verified by play.

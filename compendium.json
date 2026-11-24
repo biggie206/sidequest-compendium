@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "bundleVersion": 6,
+ "bundleVersion": 7,
  "updatedAt": "2026-11-24",
  "categories": [
   {
@@ -17,6 +17,16 @@
    "id": "discover",
    "name": "Discovery",
    "order": 3
+  },
+  {
+   "id": "robbery",
+   "name": "Robbery spots",
+   "order": 4
+  },
+  {
+   "id": "secrets",
+   "name": "Secrets",
+   "order": 5
   }
  ],
  "items": [
@@ -366,6 +376,153 @@
    ],
    "target": 100,
    "total": 255
+  },
+  {
+   "id": "rob-vault-01",
+   "category": "robbery",
+   "name": "Large vault: by the airport",
+   "hint": "Payout in guides: 100,000 to 150,000. Follow a security van without getting close; the vault opens briefly when the guard carries the case in. Expect 4 stars at once.",
+   "tags": [
+    "robbery"
+   ]
+  },
+  {
+   "id": "rob-vault-02",
+   "category": "robbery",
+   "name": "Large vault: downtown, the richer one",
+   "hint": "Payout in guides: 135,000 to 205,000. Reported: a shutter entrance.",
+   "tags": [
+    "robbery"
+   ]
+  },
+  {
+   "id": "rob-vault-03",
+   "category": "robbery",
+   "name": "Large vault: downtown, the other",
+   "hint": "Payout in guides: 100,000 to 150,000. Reported: a back-alley entrance.",
+   "tags": [
+    "robbery"
+   ]
+  },
+  {
+   "id": "rob-vault-04",
+   "category": "robbery",
+   "name": "Large vault: beach district, the richest",
+   "hint": "Payout in guides: 135,000 to 205,000.",
+   "tags": [
+    "robbery"
+   ]
+  },
+  {
+   "id": "rob-vault-05",
+   "category": "robbery",
+   "name": "Large vaults: beach district, three more",
+   "hint": "Payouts in guides: 75,000 to 140,000. Reported: one has a dock nearby for a boat escape.",
+   "tags": [
+    "robbery"
+   ],
+   "target": 3
+  },
+  {
+   "id": "rob-vault-06",
+   "category": "robbery",
+   "name": "Large vault: the eighth",
+   "hint": "The lowest payout, 65,000 to 110,000 in guides. Reported: it is the northern branch.",
+   "tags": [
+    "robbery"
+   ]
+  },
+  {
+   "id": "rob-small-01",
+   "category": "robbery",
+   "name": "Small banks in the city county: 9",
+   "hint": "Take both the cash drawer and the safe for each to count. The map's robbery filter shows what is left.",
+   "tags": [
+    "robbery"
+   ],
+   "target": 9
+  },
+  {
+   "id": "rob-small-02",
+   "category": "robbery",
+   "name": "Small banks in the other counties: 5",
+   "hint": "Three in one county and one in each of two more. Low payouts, but all 22 bank jobs are needed for 100%.",
+   "tags": [
+    "robbery"
+   ],
+   "target": 5
+  },
+  {
+   "id": "sec-01",
+   "category": "secrets",
+   "name": "Painted eggs on the tower",
+   "hint": "Top of the tallest broadcast tower in the city. A long climb; throw an egg off for a scene.",
+   "tags": [
+    "secret"
+   ]
+  },
+  {
+   "id": "sec-02",
+   "category": "secrets",
+   "name": "The swamp ape",
+   "hint": "Flyers seen at night start a side job. It is in the marshes; guides disagree on which one.",
+   "tags": [
+    "secret"
+   ]
+  },
+  {
+   "id": "sec-03",
+   "category": "secrets",
+   "name": "Lights in the sky",
+   "hint": "A rural road east of the port town, by a motel, around 2 a.m., from chapter 2. Tied to a hidden trophy.",
+   "tags": [
+    "secret"
+   ]
+  },
+  {
+   "id": "sec-04",
+   "category": "secrets",
+   "name": "The dog on the water scooter",
+   "hint": "Get stranded out at sea and a dog rides up. Follow it to a small island with cash.",
+   "tags": [
+    "secret"
+   ]
+  },
+  {
+   "id": "sec-05",
+   "category": "secrets",
+   "name": "The giant crab",
+   "hint": "At a marsh outpost: restore power at the fuse box, read the journal, then look away. Guides disagree on which marsh.",
+   "tags": [
+    "secret"
+   ]
+  },
+  {
+   "id": "sec-06",
+   "category": "secrets",
+   "name": "The humming monument",
+   "hint": "In the canyon country. Unsolved so far: the controller buzzes and it beeps in a pattern.",
+   "tags": [
+    "secret"
+   ]
+  },
+  {
+   "id": "sec-07",
+   "category": "secrets",
+   "name": "The boat with the wrong map",
+   "hint": "Moored outside the first house. Look at its navigation screen.",
+   "tags": [
+    "secret"
+   ]
+  },
+  {
+   "id": "sec-08",
+   "category": "secrets",
+   "name": "After the lights",
+   "hint": "Reported: once taken, a restricted site in the south follows, with a permanent stat boost. Guides disagree on the door code.",
+   "tags": [
+    "secret"
+   ]
   }
  ],
  "checkpoints": [
