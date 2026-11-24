@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
- "bundleVersion": 5,
- "updatedAt": "2026-11-18",
+ "bundleVersion": 6,
+ "updatedAt": "2026-11-24",
  "categories": [
   {
    "id": "story",
@@ -24,6 +24,7 @@
    "id": "req-story-01",
    "category": "story",
    "name": "Finish the main story",
+   "hint": "The game's own 100% list only shows up after the credits, so finish the story first.",
    "tags": [
     "100%"
    ]
@@ -41,6 +42,7 @@
    "id": "req-story-03",
    "category": "story",
    "name": "Gang operations: all 39",
+   "hint": "Open from chapter 1 and the steadiest early source of loot. Take the valuables and the safe.",
    "tags": [
     "100%"
    ],
@@ -50,6 +52,7 @@
    "id": "req-story-04",
    "category": "story",
    "name": "Bank jobs: all 22",
+   "hint": "Best left until chapter 3: before then the cash is ruined by dye packs. A small bank counts once you take both the cash drawer and the safe.",
    "tags": [
     "100%"
    ],
@@ -59,6 +62,7 @@
    "id": "req-story-05",
    "category": "story",
    "name": "Loan-store jobs: all 7",
+   "hint": "Best left until chapter 3, like the small banks. They pay in marked bills.",
    "tags": [
     "100%"
    ],
@@ -78,6 +82,7 @@
    "id": "req-story-07",
    "category": "story",
    "name": "Stick-ups: 50 of 91",
+   "hint": "Shops can be held up from the start of the game, so this one builds up as you play.",
    "tags": [
     "100%"
    ],
@@ -88,6 +93,7 @@
    "id": "req-story-08",
    "category": "story",
    "name": "Narcotics fenced: 100,000",
+   "hint": "Loot is not money until a fence buys it. Fences pay different rates for different goods, so compare before you sell.",
    "tags": [
     "100%"
    ],
@@ -97,6 +103,7 @@
    "id": "req-story-09",
    "category": "story",
    "name": "Jewelry fenced: 100,000",
+   "hint": "Fences pay different rates for jewelry. Check more than one before you sell a big haul.",
    "tags": [
     "100%"
    ],
@@ -106,6 +113,7 @@
    "id": "req-story-10",
    "category": "story",
    "name": "Marked bills fenced: 250,000",
+   "hint": "Bank and loan-store cash is marked. No fence takes it until a chapter 3 story mission gives you a way to stop the dye packs.",
    "tags": [
     "100%"
    ],
@@ -115,6 +123,7 @@
    "id": "req-story-11",
    "category": "story",
    "name": "Large bank vaults: all 8",
+   "hint": "Opens late in chapter 4 through an optional mission. Reported: a vault only opens during an armored-truck delivery and brings a 4-star wanted level.",
    "tags": [
     "100%"
    ],
@@ -143,6 +152,7 @@
    "id": "req-explore-02",
    "category": "explore",
    "name": "Collectible card sets: 15 of 18",
+   "hint": "18 sets, about 480 cards. Check wall phone boxes, toolboxes, shelves and bathrooms.",
    "tags": [
     "100%"
    ],
@@ -182,6 +192,7 @@
    "id": "req-explore-06",
    "category": "explore",
    "name": "Meditation spots: 15 of 18",
+   "hint": "15 of 18 is enough here. The trophy needs all 18, and one spot is at a house in chapter 1 only: take the first shared meditation there.",
    "tags": [
     "100%"
    ],
@@ -298,6 +309,7 @@
    "id": "req-explore-18",
    "category": "explore",
    "name": "Stunts: 300 of 397",
+   "hint": "Four kinds: 130 jumps, 202 bridges, 40 knife flights, 25 base jumps. Bridges are quickest: pass under once, the extra challenge is optional.",
    "tags": [
     "100%"
    ],
@@ -327,6 +339,7 @@
    "id": "req-discover-01",
    "category": "discover",
    "name": "Base model vehicles scanned: 200 of 277",
+   "hint": "Boats and aircraft count. Reported: special one-off vehicles do not.",
    "tags": [
     "100%"
    ],
@@ -347,6 +360,7 @@
    "id": "req-discover-03",
    "category": "discover",
    "name": "Animals studied: 100 of 255",
+   "hint": "Studying an animal through binoculars is enough; you do not have to hunt it. Dog and cat breeds count separately.",
    "tags": [
     "100%"
    ],

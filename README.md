@@ -41,3 +41,12 @@ Numbers and requirements only, rewritten in our own words; no names, titles or t
   project enters it on a console, with that date. Sequences the sources do not agree on are left out.
 - Five trophies have no confirmed requirement yet and say so.
 
+
+## Where the tips came from (2026-11-24)
+Facts only, rewritten in our own words; no names, titles or text copied.
+- Checklist hints (14 lines) and the two trophy notes were taken from search summaries of
+  published 100% checklists, trophy roadmaps, robbery, fence, stunt and collectible guides
+  (PowerPyx, Push Square, games.gg, Alcast, GamerFuzion, KeenGamer, game-checklists and others).
+- They were NOT cross-checked line by line against each page and NOT verified by play. A line
+  that starts with "Reported:" is one we already know rests on a single guide.
+- A hint is corrected or removed when someone on this project sees otherwise in the game.

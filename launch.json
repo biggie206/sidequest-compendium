@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
- "bundleVersion": 5,
- "updatedAt": "2026-11-18",
+ "bundleVersion": 6,
+ "updatedAt": "2026-11-24",
  "codes": [
   {
    "id": "c-001",
@@ -1030,7 +1030,7 @@
   {
    "id": "t-040",
    "name": "Five vaults",
-   "detail": "Rob 5 bank vaults and escape.",
+   "detail": "Rob 5 bank vaults and escape. Vaults open late in chapter 4 through an optional mission.",
    "grade": "silver"
   },
   {
@@ -1102,7 +1102,7 @@
   {
    "id": "t-052",
    "name": "Clean money",
-   "detail": "Launder 250,000 in marked bills through fences.",
+   "detail": "Launder 250,000 in marked bills through fences. Marked bills cannot be sold until a chapter 3 story mission.",
    "grade": "bronze"
   },
   {
