@@ -1,7 +1,201 @@
 {
-  "schemaVersion": 1,
-  "bundleVersion": 1,
-  "updatedAt": "2026-11-24",
-  "pins": [],
-  "storyLines": []
+ "schemaVersion": 1,
+ "bundleVersion": 2,
+ "updatedAt": "2026-11-24",
+ "pins": [
+  {
+   "id": "bank-01",
+   "x": 0.58,
+   "y": 0.264,
+   "kind": "vault",
+   "label": "Bank job, north town",
+   "hint": "Reported: in the small town below the hills, just west of the big lake.",
+   "status": "unverified",
+   "free": true
+  },
+  {
+   "id": "bank-02",
+   "x": 0.672,
+   "y": 0.338,
+   "kind": "vault",
+   "label": "Bank job, lake road",
+   "hint": "Reported: on the road that runs south from the big lake toward the city.",
+   "status": "unverified"
+  },
+  {
+   "id": "bank-03",
+   "x": 0.745,
+   "y": 0.398,
+   "kind": "vault",
+   "label": "Bank job, north suburbs",
+   "hint": "Reported: in the suburbs on the northern edge of the city.",
+   "status": "unverified",
+   "free": true
+  },
+  {
+   "id": "bank-04",
+   "x": 0.675,
+   "y": 0.436,
+   "kind": "vault",
+   "label": "Bank job, inland suburbs",
+   "hint": "Reported: inland, north of the airfield, where the east to west road crosses.",
+   "status": "unverified"
+  },
+  {
+   "id": "bank-05",
+   "x": 0.297,
+   "y": 0.462,
+   "kind": "vault",
+   "label": "Bank job, west coast",
+   "hint": "Reported: the only one on the west coast, near the inlet.",
+   "status": "unverified",
+   "free": true
+  },
+  {
+   "id": "bank-06",
+   "x": 0.868,
+   "y": 0.386,
+   "kind": "vault",
+   "label": "Bank job, beach strip 1",
+   "hint": "Reported: north end of the long beach strip.",
+   "status": "unverified"
+  },
+  {
+   "id": "bank-07",
+   "x": 0.868,
+   "y": 0.414,
+   "kind": "vault",
+   "label": "Bank job, beach strip 2",
+   "hint": "Reported: on the beach strip, a little south of the first.",
+   "status": "unverified",
+   "free": true
+  },
+  {
+   "id": "bank-08",
+   "x": 0.868,
+   "y": 0.444,
+   "kind": "vault",
+   "label": "Bank job, beach strip 3",
+   "hint": "Reported: middle of the beach strip.",
+   "status": "unverified"
+  },
+  {
+   "id": "bank-09",
+   "x": 0.815,
+   "y": 0.456,
+   "kind": "vault",
+   "label": "Bank job, lagoon shore",
+   "hint": "Reported: on the city shore, facing the beach strip across the lagoon.",
+   "status": "unverified"
+  },
+  {
+   "id": "bank-10",
+   "x": 0.868,
+   "y": 0.474,
+   "kind": "vault",
+   "label": "Bank job, beach strip 4",
+   "hint": "Reported: toward the south end of the beach strip.",
+   "status": "unverified"
+  },
+  {
+   "id": "bank-11",
+   "x": 0.706,
+   "y": 0.482,
+   "kind": "vault",
+   "label": "Bank job, city centre 1",
+   "hint": "Reported: in the dense middle of the city, north-east of the airfield.",
+   "status": "unverified",
+   "free": true
+  },
+  {
+   "id": "bank-12",
+   "x": 0.736,
+   "y": 0.49,
+   "kind": "vault",
+   "label": "Bank job, city centre 2",
+   "hint": "Reported: a block or two east of the first city-centre job.",
+   "status": "unverified"
+  },
+  {
+   "id": "bank-13",
+   "x": 0.65,
+   "y": 0.498,
+   "kind": "vault",
+   "label": "Bank job, airfield road",
+   "hint": "Reported: beside the airfield's north-east corner.",
+   "status": "unverified"
+  },
+  {
+   "id": "bank-14",
+   "x": 0.703,
+   "y": 0.526,
+   "kind": "vault",
+   "label": "Bank job, south city 1",
+   "hint": "Reported: south of the centre, east of the airfield.",
+   "status": "unverified",
+   "free": true
+  },
+  {
+   "id": "bank-15",
+   "x": 0.678,
+   "y": 0.56,
+   "kind": "vault",
+   "label": "Bank job, south city 2",
+   "hint": "Reported: the last one before the city thins out to the south.",
+   "status": "unverified"
+  },
+  {
+   "id": "bank-16",
+   "x": 0.426,
+   "y": 0.634,
+   "kind": "vault",
+   "label": "Bank job, wetlands town",
+   "hint": "Reported: in the town on the edge of the wetlands, in the south-west.",
+   "status": "unverified",
+   "free": true
+  },
+  {
+   "id": "bank-17",
+   "x": 0.59,
+   "y": 0.772,
+   "kind": "vault",
+   "label": "Bank job, the spit",
+   "hint": "Reported: on the thin spit of land that leads to the long bridge.",
+   "status": "unverified",
+   "free": true
+  },
+  {
+   "id": "secret-tower",
+   "x": 0.8,
+   "y": 0.42,
+   "kind": "secret",
+   "label": "Top of the tallest mast",
+   "hint": "Approximate area: the city. A long climb; throw an egg off the top for a scene.",
+   "status": "unverified",
+   "free": true,
+   "line": "sec-01"
+  },
+  {
+   "id": "secret-night-road",
+   "x": 0.31,
+   "y": 0.262,
+   "kind": "secret",
+   "label": "Something on a night road",
+   "hint": "Approximate area: a rural road east of the port town, by a motel, around 2 a.m., from chapter 2.",
+   "status": "unverified",
+   "line": "sec-03"
+  },
+  {
+   "id": "secret-canyon",
+   "x": 0.44,
+   "y": 0.17,
+   "kind": "secret",
+   "label": "The thing that beeps",
+   "hint": "Approximate area: the canyon country in the northern hills. Unsolved so far.",
+   "status": "unverified",
+   "free": true,
+   "line": "sec-06"
+  }
+ ],
+ "storyLines": []
 }

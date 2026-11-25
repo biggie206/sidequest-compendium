@@ -75,3 +75,14 @@ Facts only, in our own words; no place, bank, character, show or game names.
   appear on all three; "After the lights" on two. Where they disagree the hint says so. Finds
   that are only a reference to a film, show or earlier game are left out.
 - Not verified by play.
+
+## First pins on the board (2026-11-24)
+Positions on our own drawing, placed by hand and by eye; nothing copied but the rough whereabouts.
+- Bank jobs (17 pins): where each sits was read off one public interactive fan map, looked at on
+  screen, and placed by eye on our own drawing. That is a single source for position, so every
+  hint starts with "Reported:". Which of them are the large vaults is not known yet, so none is
+  tied to a checklist line.
+- Secrets (3 pins): tied to their checklist lines. The guides give an area, not a spot, so each
+  hint starts with "Approximate area:".
+- All 20 are `unverified`. A pin becomes `verified`, or is moved or removed, when someone on this
+  project sees it in the game. Positions are right relative to our drawing's districts, not exact.
