@@ -84,5 +84,7 @@ Positions on our own drawing, placed by hand and by eye; nothing copied but the 
   tied to a checklist line.
 - Secrets (3 pins): tied to their checklist lines. The guides give an area, not a spot, so each
   hint starts with "Approximate area:".
+- 2026-11-25: all 20 were re-placed by hand on our redrawn outline (file version 3). Same pins,
+  same wording; only the positions moved.
 - All 20 are `unverified`. A pin becomes `verified`, or is moved or removed, when someone on this
   project sees it in the game. Positions are right relative to our drawing's districts, not exact.
