@@ -88,3 +88,15 @@ Positions on our own drawing, placed by hand and by eye; nothing copied but the 
   same wording; only the positions moved.
 - All 20 are `unverified`. A pin becomes `verified`, or is moved or removed, when someone on this
   project sees it in the game. Positions are right relative to our drawing's districts, not exact.
+
+## Story lines: things to do in each chapter, and money tips (2026-11-25)
+Facts only, in our own words; chapters are numbered, and no mission, place, character or
+in-game brand names are used.
+- 32 lines in `map.json` under `storyLines`, each hidden until the player's own progress reaches
+  that chapter. Sources opened: PowerPyx (money guide, trophy roadmap, 100% checklist, savings
+  page), two Red Bull pages, two VGC pages, Dexerto, a fan mission list, and four smaller guide sites.
+- A line with no marker rests on two opened pages. "Reported:" marks what only one opened page
+  says. Where guides disagree the line says so.
+- Guides list a short fifth chapter. The progress steps in `compendium.json` still stop at
+  chapter 4, so the fifth chapter's line shows once chapter 4 is marked finished.
+- Not verified by play. A line is corrected or removed when someone on this project sees otherwise.

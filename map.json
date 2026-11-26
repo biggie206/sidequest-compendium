@@ -1,201 +1,394 @@
 {
- "schemaVersion": 1,
- "bundleVersion": 3,
- "updatedAt": "2026-11-24",
- "pins": [
-  {
-   "id": "bank-01",
-   "x": 0.56,
-   "y": 0.326,
-   "kind": "vault",
-   "label": "Bank job, north town",
-   "hint": "Reported: in the small town below the hills, just west of the big lake.",
-   "status": "unverified",
-   "free": true
-  },
-  {
-   "id": "bank-02",
-   "x": 0.681,
-   "y": 0.374,
-   "kind": "vault",
-   "label": "Bank job, lake road",
-   "hint": "Reported: on the road that runs south from the big lake toward the city.",
-   "status": "unverified"
-  },
-  {
-   "id": "bank-03",
-   "x": 0.733,
-   "y": 0.429,
-   "kind": "vault",
-   "label": "Bank job, north suburbs",
-   "hint": "Reported: in the suburbs on the northern edge of the city.",
-   "status": "unverified",
-   "free": true
-  },
-  {
-   "id": "bank-04",
-   "x": 0.592,
-   "y": 0.491,
-   "kind": "vault",
-   "label": "Bank job, inland suburbs",
-   "hint": "Reported: inland, north of the airfield, where the east to west road crosses.",
-   "status": "unverified"
-  },
-  {
-   "id": "bank-05",
-   "x": 0.262,
-   "y": 0.524,
-   "kind": "vault",
-   "label": "Bank job, west coast",
-   "hint": "Reported: the only one on the west coast, near the inlet.",
-   "status": "unverified",
-   "free": true
-  },
-  {
-   "id": "bank-06",
-   "x": 0.927,
-   "y": 0.403,
-   "kind": "vault",
-   "label": "Bank job, beach strip 1",
-   "hint": "Reported: north end of the long beach strip.",
-   "status": "unverified"
-  },
-  {
-   "id": "bank-07",
-   "x": 0.932,
-   "y": 0.45,
-   "kind": "vault",
-   "label": "Bank job, beach strip 2",
-   "hint": "Reported: on the beach strip, a little south of the first.",
-   "status": "unverified",
-   "free": true
-  },
-  {
-   "id": "bank-08",
-   "x": 0.935,
-   "y": 0.497,
-   "kind": "vault",
-   "label": "Bank job, beach strip 3",
-   "hint": "Reported: middle of the beach strip.",
-   "status": "unverified"
-  },
-  {
-   "id": "bank-09",
-   "x": 0.749,
-   "y": 0.512,
-   "kind": "vault",
-   "label": "Bank job, lagoon shore",
-   "hint": "Reported: on the city shore, facing the beach strip across the lagoon.",
-   "status": "unverified"
-  },
-  {
-   "id": "bank-10",
-   "x": 0.935,
-   "y": 0.55,
-   "kind": "vault",
-   "label": "Bank job, beach strip 4",
-   "hint": "Reported: toward the south end of the beach strip.",
-   "status": "unverified"
-  },
-  {
-   "id": "bank-11",
-   "x": 0.705,
-   "y": 0.524,
-   "kind": "vault",
-   "label": "Bank job, city centre 1",
-   "hint": "Reported: in the dense middle of the city, north-east of the airfield.",
-   "status": "unverified",
-   "free": true
-  },
-  {
-   "id": "bank-12",
-   "x": 0.729,
-   "y": 0.553,
-   "kind": "vault",
-   "label": "Bank job, city centre 2",
-   "hint": "Reported: a block or two east of the first city-centre job.",
-   "status": "unverified"
-  },
-  {
-   "id": "bank-13",
-   "x": 0.669,
-   "y": 0.541,
-   "kind": "vault",
-   "label": "Bank job, airfield road",
-   "hint": "Reported: beside the airfield's north-east corner.",
-   "status": "unverified"
-  },
-  {
-   "id": "bank-14",
-   "x": 0.717,
-   "y": 0.606,
-   "kind": "vault",
-   "label": "Bank job, south city 1",
-   "hint": "Reported: south of the centre, east of the airfield.",
-   "status": "unverified",
-   "free": true
-  },
-  {
-   "id": "bank-15",
-   "x": 0.685,
-   "y": 0.668,
-   "kind": "vault",
-   "label": "Bank job, south city 2",
-   "hint": "Reported: the last one before the city thins out to the south.",
-   "status": "unverified"
-  },
-  {
-   "id": "bank-16",
-   "x": 0.403,
-   "y": 0.724,
-   "kind": "vault",
-   "label": "Bank job, wetlands town",
-   "hint": "Reported: in the town on the edge of the wetlands, in the south-west.",
-   "status": "unverified",
-   "free": true
-  },
-  {
-   "id": "bank-17",
-   "x": 0.634,
-   "y": 0.803,
-   "kind": "vault",
-   "label": "Bank job, the spit",
-   "hint": "Reported: on the thin spit of land that leads to the long bridge.",
-   "status": "unverified",
-   "free": true
-  },
-  {
-   "id": "secret-tower",
-   "x": 0.736,
-   "y": 0.479,
-   "kind": "secret",
-   "label": "Top of the tallest mast",
-   "hint": "Approximate area: the city. A long climb; throw an egg off the top for a scene.",
-   "status": "unverified",
-   "free": true,
-   "line": "sec-01"
-  },
-  {
-   "id": "secret-night-road",
-   "x": 0.375,
-   "y": 0.347,
-   "kind": "secret",
-   "label": "Something on a night road",
-   "hint": "Approximate area: a rural road east of the port town, by a motel, around 2 a.m., from chapter 2.",
-   "status": "unverified",
-   "line": "sec-03"
-  },
-  {
-   "id": "secret-canyon",
-   "x": 0.471,
-   "y": 0.162,
-   "kind": "secret",
-   "label": "The thing that beeps",
-   "hint": "Approximate area: the canyon country in the northern hills. Unsolved so far.",
-   "status": "unverified",
-   "free": true,
-   "line": "sec-06"
-  }
- ],
- "storyLines": []
+  "schemaVersion": 1,
+  "bundleVersion": 4,
+  "updatedAt": "2026-11-25",
+  "pins": [
+    {
+      "id": "bank-01",
+      "x": 0.56,
+      "y": 0.326,
+      "kind": "vault",
+      "label": "Bank job, north town",
+      "hint": "Reported: in the small town below the hills, just west of the big lake.",
+      "status": "unverified",
+      "free": true
+    },
+    {
+      "id": "bank-02",
+      "x": 0.681,
+      "y": 0.374,
+      "kind": "vault",
+      "label": "Bank job, lake road",
+      "hint": "Reported: on the road that runs south from the big lake toward the city.",
+      "status": "unverified"
+    },
+    {
+      "id": "bank-03",
+      "x": 0.733,
+      "y": 0.429,
+      "kind": "vault",
+      "label": "Bank job, north suburbs",
+      "hint": "Reported: in the suburbs on the northern edge of the city.",
+      "status": "unverified",
+      "free": true
+    },
+    {
+      "id": "bank-04",
+      "x": 0.592,
+      "y": 0.491,
+      "kind": "vault",
+      "label": "Bank job, inland suburbs",
+      "hint": "Reported: inland, north of the airfield, where the east to west road crosses.",
+      "status": "unverified"
+    },
+    {
+      "id": "bank-05",
+      "x": 0.262,
+      "y": 0.524,
+      "kind": "vault",
+      "label": "Bank job, west coast",
+      "hint": "Reported: the only one on the west coast, near the inlet.",
+      "status": "unverified",
+      "free": true
+    },
+    {
+      "id": "bank-06",
+      "x": 0.927,
+      "y": 0.403,
+      "kind": "vault",
+      "label": "Bank job, beach strip 1",
+      "hint": "Reported: north end of the long beach strip.",
+      "status": "unverified"
+    },
+    {
+      "id": "bank-07",
+      "x": 0.932,
+      "y": 0.45,
+      "kind": "vault",
+      "label": "Bank job, beach strip 2",
+      "hint": "Reported: on the beach strip, a little south of the first.",
+      "status": "unverified",
+      "free": true
+    },
+    {
+      "id": "bank-08",
+      "x": 0.935,
+      "y": 0.497,
+      "kind": "vault",
+      "label": "Bank job, beach strip 3",
+      "hint": "Reported: middle of the beach strip.",
+      "status": "unverified"
+    },
+    {
+      "id": "bank-09",
+      "x": 0.749,
+      "y": 0.512,
+      "kind": "vault",
+      "label": "Bank job, lagoon shore",
+      "hint": "Reported: on the city shore, facing the beach strip across the lagoon.",
+      "status": "unverified"
+    },
+    {
+      "id": "bank-10",
+      "x": 0.935,
+      "y": 0.55,
+      "kind": "vault",
+      "label": "Bank job, beach strip 4",
+      "hint": "Reported: toward the south end of the beach strip.",
+      "status": "unverified"
+    },
+    {
+      "id": "bank-11",
+      "x": 0.705,
+      "y": 0.524,
+      "kind": "vault",
+      "label": "Bank job, city centre 1",
+      "hint": "Reported: in the dense middle of the city, north-east of the airfield.",
+      "status": "unverified",
+      "free": true
+    },
+    {
+      "id": "bank-12",
+      "x": 0.729,
+      "y": 0.553,
+      "kind": "vault",
+      "label": "Bank job, city centre 2",
+      "hint": "Reported: a block or two east of the first city-centre job.",
+      "status": "unverified"
+    },
+    {
+      "id": "bank-13",
+      "x": 0.669,
+      "y": 0.541,
+      "kind": "vault",
+      "label": "Bank job, airfield road",
+      "hint": "Reported: beside the airfield's north-east corner.",
+      "status": "unverified"
+    },
+    {
+      "id": "bank-14",
+      "x": 0.717,
+      "y": 0.606,
+      "kind": "vault",
+      "label": "Bank job, south city 1",
+      "hint": "Reported: south of the centre, east of the airfield.",
+      "status": "unverified",
+      "free": true
+    },
+    {
+      "id": "bank-15",
+      "x": 0.685,
+      "y": 0.668,
+      "kind": "vault",
+      "label": "Bank job, south city 2",
+      "hint": "Reported: the last one before the city thins out to the south.",
+      "status": "unverified"
+    },
+    {
+      "id": "bank-16",
+      "x": 0.403,
+      "y": 0.724,
+      "kind": "vault",
+      "label": "Bank job, wetlands town",
+      "hint": "Reported: in the town on the edge of the wetlands, in the south-west.",
+      "status": "unverified",
+      "free": true
+    },
+    {
+      "id": "bank-17",
+      "x": 0.634,
+      "y": 0.803,
+      "kind": "vault",
+      "label": "Bank job, the spit",
+      "hint": "Reported: on the thin spit of land that leads to the long bridge.",
+      "status": "unverified",
+      "free": true
+    },
+    {
+      "id": "secret-tower",
+      "x": 0.736,
+      "y": 0.479,
+      "kind": "secret",
+      "label": "Top of the tallest mast",
+      "hint": "Approximate area: the city. A long climb; throw an egg off the top for a scene.",
+      "status": "unverified",
+      "free": true,
+      "line": "sec-01"
+    },
+    {
+      "id": "secret-night-road",
+      "x": 0.375,
+      "y": 0.347,
+      "kind": "secret",
+      "label": "Something on a night road",
+      "hint": "Approximate area: a rural road east of the port town, by a motel, around 2 a.m., from chapter 2.",
+      "status": "unverified",
+      "line": "sec-03"
+    },
+    {
+      "id": "secret-canyon",
+      "x": 0.471,
+      "y": 0.162,
+      "kind": "secret",
+      "label": "The thing that beeps",
+      "hint": "Approximate area: the canyon country in the northern hills. Unsolved so far.",
+      "status": "unverified",
+      "free": true,
+      "line": "sec-06"
+    }
+  ],
+  "storyLines": [
+    {
+      "id": "story-0-bank-often",
+      "label": "Opening: bank your cash often",
+      "tip": "Cash you carry is lost when you die. Money in the bank is safer.",
+      "progress": 0
+    },
+    {
+      "id": "story-0-scan-cars",
+      "label": "Opening: scan a car before you steal it",
+      "tip": "The scanner shows alarms and trackers.",
+      "progress": 0
+    },
+    {
+      "id": "story-0-doors",
+      "label": "Opening: learn which doors open",
+      "tip": "Dark-blue buildings on the map can be entered and the minimap marks the door. In focus view, white doors are open to you and red ones are alarmed.",
+      "progress": 0
+    },
+    {
+      "id": "story-0-profile",
+      "label": "Opening: avoid needless killing",
+      "tip": "Guides agree the worst level of your criminal profile is permanent.",
+      "progress": 0
+    },
+    {
+      "id": "story-0-sleep",
+      "label": "Opening: sleep to move the clock",
+      "tip": "Some shops and jobs only run at certain hours.",
+      "progress": 0
+    },
+    {
+      "id": "story-1-bank",
+      "label": "Chapter 1: open the bank account",
+      "tip": "It comes with an early job, an hour or two in. Until then, cash can be hidden under the bedroom floor at the first house.",
+      "progress": 0
+    },
+    {
+      "id": "story-1-errands",
+      "label": "Chapter 1: do the neighbour's two errands",
+      "tip": "Both close when the chapter's ending starts, and skipping the first removes the second.",
+      "progress": 0
+    },
+    {
+      "id": "story-1-meditate",
+      "label": "Chapter 1: meditate with your partner at the first house",
+      "tip": "The spot closes with the chapter. Guides disagree on whether the trophy needs it, so take it.",
+      "progress": 0
+    },
+    {
+      "id": "story-1-side",
+      "label": "Chapter 1: finish the side content around the first town",
+      "tip": "Reported: after the chapter free roam is limited for a few hours and the area is a long drive back.",
+      "progress": 0
+    },
+    {
+      "id": "story-1-savings",
+      "label": "Money, chapter 1: move cash into savings before the ending",
+      "tip": "Savings deposits cannot be lost; cash in your pocket goes in the ending. Two guides suggest about 5,000. Guides disagree on how much other money survives.",
+      "progress": 0
+    },
+    {
+      "id": "story-1-no-grind",
+      "label": "Money, chapter 1: do not grind, and do not upgrade the first pickup",
+      "tip": "Reported: early earning is slow, registers pay a few hundred at most, and the pickup is lost later.",
+      "progress": 0
+    },
+    {
+      "id": "story-1-save",
+      "label": "Chapter 1: make a separate save before the package pickup at the visitor centre",
+      "tip": "That job starts a three-job ending with no way back, and the first house is gone afterwards.",
+      "progress": 0
+    },
+    {
+      "id": "story-2-switch",
+      "label": "Chapter 2: try switching leads and the partner activities",
+      "tip": "Both open with a mid-chapter job. Reported: there is no map warp, so switching is the cheapest way across the map.",
+      "progress": 20
+    },
+    {
+      "id": "story-2-cars",
+      "label": "Money, chapter 2: sell clean stolen cars to the garage contact",
+      "tip": "Opens with his job. Only cars without a tracker. Reported: about 1,000 a car, a two-minute wait between sales, and not cars taken near his garage.",
+      "progress": 20
+    },
+    {
+      "id": "story-2-savings-tiers",
+      "label": "Money, chapter 2: build up the savings tiers",
+      "tip": "Deposits are permanent. Reported tiers: 5,000, 10,000 and 100,000 saved lift the spending account's limit to 15,000, 100,000 and 500,000, with discounts on rides and garages.",
+      "progress": 20
+    },
+    {
+      "id": "story-2-garage",
+      "label": "Chapter 2: buy a garage once the story allows it",
+      "tip": "Reported: a story job unlocks buying garages. One guide's first buys are a suppressor, then a garage.",
+      "progress": 20
+    },
+    {
+      "id": "story-2-pawn",
+      "label": "Chapter 2: pawn-shop smash-and-grabs open",
+      "tip": "Reported: they open with the same mid-chapter job as switching.",
+      "progress": 20
+    },
+    {
+      "id": "story-2-15k",
+      "label": "Chapter 2: have 15,000 ready for the last job",
+      "tip": "Reported: the chapter's closing job needs at least 15,000. Make a separate save before it.",
+      "progress": 20
+    },
+    {
+      "id": "story-3-jammer",
+      "label": "Chapter 3: start loan stores and small banks after the jammer job",
+      "tip": "A story job gives a tool that stops dye packs. Before it the cash is ruined.",
+      "progress": 40
+    },
+    {
+      "id": "story-3-jewellery",
+      "label": "Money, chapter 3: jewellery stores",
+      "tip": "Open mid-chapter with a new lock tool. Reported: 10,000 to 25,000 a store, and they can be done back to back.",
+      "progress": 40
+    },
+    {
+      "id": "story-3-wishlist",
+      "label": "Money, chapter 3: the high-end car wish list",
+      "tip": "Opens with the key-cloning tool. Guides give 30,000 to 35,000 a car delivered in perfect condition, and disagree on whether the list is 16 or 18 cars.",
+      "progress": 40
+    },
+    {
+      "id": "story-3-tracked",
+      "label": "Money, chapter 3: tracked cars can be sold at the respray shop",
+      "tip": "Reported: about 4,000 a car. Guides disagree on when this opens: early chapter 3 or chapter 4.",
+      "progress": 40
+    },
+    {
+      "id": "story-3-fences",
+      "label": "Money, chapter 3: pick the right fence",
+      "tip": "Fences pay different rates. Two guides agree one fence pays best for jewellery and marked bills and another for narcotics, so try each.",
+      "progress": 40
+    },
+    {
+      "id": "story-3-race",
+      "label": "Chapter 3: take the optional street race when it appears",
+      "tip": "It is timed and can be missed. Reported: a second optional pickup job can be missed too.",
+      "progress": 40
+    },
+    {
+      "id": "story-4-vaults",
+      "label": "Chapter 4: take the optional wait at the café",
+      "tip": "Late in the chapter it opens large vaults and armoured vans. Guides give up to about 200,000 a vault and an instant four-star response. Reported: a fence sells van tips for 10,000.",
+      "progress": 60
+    },
+    {
+      "id": "story-4-coin",
+      "label": "Money, chapter 4: the side series with a coin to buy",
+      "tip": "Reported: it lets you buy a coin that climbs sharply. Sell before the series ends.",
+      "progress": 60
+    },
+    {
+      "id": "story-4-call",
+      "label": "Chapter 4: take the optional timed phone job",
+      "tip": "Reported: it can be missed.",
+      "progress": 60
+    },
+    {
+      "id": "story-4-own-stories",
+      "label": "Chapter 4: finish each lead's own side stories before the last job",
+      "tip": "Reported: do them before the chapter's final job.",
+      "progress": 60
+    },
+    {
+      "id": "story-4-save",
+      "label": "Chapter 4: make a separate save before the last job",
+      "tip": "Reported: it is a point of no return. Save again before the finale.",
+      "progress": 60
+    },
+    {
+      "id": "story-5-finale",
+      "label": "Chapter 5: the short final chapter",
+      "tip": "Guides list seven to nine jobs. There is no mission replay. Reported: after the credits you are put back just before the finale.",
+      "progress": 80
+    },
+    {
+      "id": "story-6-list",
+      "label": "After the story: open the 100% list",
+      "tip": "It appears on the stats page after the credits, and earlier progress already counts.",
+      "progress": 100
+    },
+    {
+      "id": "story-6-code",
+      "label": "After the story: the money code",
+      "tip": "Reported: a 250,000 money code unlocks. Using it stops trophy progress for that session.",
+      "progress": 100
+    }
+  ]
 }
